@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-7">
-                <h1  style='{{if eq .URL "/documentation/" }}width: 87%; {{end}}{{if eq .URL "/blog/"  }}width: 76%; {{end}}'>{{ .Title | safeHTML  }}</h1>            
+                <h1  style='{{if eq .Page.RelPermalink "/documentation/" }}width: 87%; {{end}}{{if eq .Page.RelPermalink "/blog/"  }}width: 76%; {{end}}'>{{ .Title | safeHTML  }}</h1>            
                 <h6>{{.Params.description | safeHTML}}</h6>
             </div>
         </div>
