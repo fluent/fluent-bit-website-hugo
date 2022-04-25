@@ -12,8 +12,8 @@
                     <a href="{{$data.btnUrl | safeHTML}}" class="btn btn-gradient" data-aos="zoom-in">{{$data.btnText | safeHTML}}</a>
                 </p>                
                 <p class="ver" data-aos="flip-right">
-                    {{$data.version | safeHTML}} released on <strong>{{$data.releasedDate | safeHTML}}</strong> <br>
-                    <a href="{{$data.noteUrl | safeHTML}}" class="read-link" data-aos="fade-up">{{$data.noteText | safeHTML}}</a>
+                    {{.Site.Params.lastVersion | safeHTML}} released on <strong>{{.Site.Params.releasedOn | safeHTML}}</strong> <br>
+                    <a href="{{.Site.Params.noteUrl | safeHTML}}" class="read-link" data-aos="fade-up">{{$data.noteText | safeHTML}}</a>
                 </p>
             </div> 
         </div>

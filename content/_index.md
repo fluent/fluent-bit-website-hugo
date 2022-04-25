@@ -12,10 +12,7 @@ hero:
    Fluent Bit is a super fast, lightweight, and highly scalable logging and metrics processor and forwarder.  It is the preferred choice for cloud and containerized environments.
   btnText: DOWNLOAD NOW
   btnUrl: "https://docs.fluentbit.io/manual/installation/getting-started-with-fluent-bit"
-  version: v1.9.2
-  releasedDate: Apr 08, 2022
   noteText: Read the notes »
-  noteUrl: "/announcements/v1.9.2"
   image: "/images/hero.svg"
   mobileImage: "/images/hero-m.svg"
 howitworks: 
