@@ -11,8 +11,8 @@
                 <div class="ver-box">                 
                     <div class="row">
                         <div class="col-md-8 offset-md-4  col-lg-6 offset-lg-6 info">
-                            <h6>{{$data.subHeading}}</h6>
-                            <h3 class="mb-2">{{$data.heading}}</h3>
+                            <h6>New release on {{.Site.Params.ReleasedOn}}</h6>
+                            <h3 class="mb-2">Fluent Bit {{.Site.Params.LastVersion}} is out!</h3>
                             {{if ne .RelPermalink "/documentation/" }}
                                 {{if $data.text}}
                                     <p>{{$data.text}}</p>

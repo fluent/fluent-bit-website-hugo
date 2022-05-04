@@ -57,8 +57,6 @@ noteUrl = "announcements/v1.9.3"
     
     [params.latestVer]
     light = "true"
-    heading = "Fluent Bit v1.9.2 is out!"
-    subHeading = "New release on Apr 08, 2022,"
     text = "Check out the Release Notes, read the Updated Documentation or jump directly to the Downloads Section."
     smallText = "We are part of a wide community, <strong>no vendor lock-in.</strong>"
     btnText = "Download Now"
