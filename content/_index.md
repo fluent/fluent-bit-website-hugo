@@ -10,6 +10,8 @@ hero:
   tag: "Deployed Over One Billion Times"
   subHeading: |
    Fluent Bit is a super fast, lightweight, and highly scalable logging and metrics processor and forwarder.  It is the preferred choice for cloud and containerized environments.
+  btnText: TRY NOW
+  btnUrl: "https://play.instruqt.com/Fluent/tracks/fluent-bit-getting-started-101"
   btnText: DOWNLOAD NOW
   btnUrl: "https://docs.fluentbit.io/manual/installation/getting-started-with-fluent-bit"
   noteText: Read the notes »
