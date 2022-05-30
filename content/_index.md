@@ -15,7 +15,6 @@ hero:
   noteText: Read the notes »
   image: "/images/hero.svg"
   mobileImage: "/images/hero-m.svg"
-  fluentConImage: "/images/fluentcon-2022.jpg"
 howitworks: 
   enabled: true
   position: 5
