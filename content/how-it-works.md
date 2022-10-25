@@ -68,7 +68,7 @@ history:
    While Fluent Bit did gain rapid adoption in embedded environments, its lightweight, efficient design also made it attractive to those working across the cloud.  Features to support more inputs, filters, and outputs were added, and Fluent Bit quickly **became the industry standard unified logging layer** across all cloud and containerized environments.
    
    
-   **Fluent Bit has been deployed over a billion times and is trusted by some of the world’s largest and most complex organizations.**
+   **Fluent Bit has been deployed over three billion times and is trusted by some of the world’s largest and most complex organizations.**
 ---
 
 ## Overview

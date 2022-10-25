@@ -7,7 +7,7 @@ hero:
   heading: |
    An End to End
    Observability Pipeline
-  tag: "Deployed Over One Billion Times"
+  tag: "Deployed Over Three Billion Times"
   subHeading: |
    Fluent Bit is a super fast, lightweight, and highly scalable logging and metrics processor and forwarder.  It is the preferred choice for cloud and containerized environments.
   btnText: TRY NOW
@@ -49,7 +49,7 @@ performance:
   - heading: Flexible
     icon: /images/flexible.svg
     description: Granular management of data parsing and routing.  Filtering and enrichment to optimize security and minimize cost.
-    heightlightText: "> 1 Billion sources managed by Fluent Bit - from IoT Devices to Windows and Linux servers."
+    heightlightText: "> 3 Billion sources managed by Fluent Bit - from IoT Devices to Windows and Linux servers."
   - heading: Efficient
     icon: /images/efficient.svg
     description: "Lightweight, asynchronous design optimizes resource usage: CPU, memory, disk I/O, network. No more OOM errors!"
