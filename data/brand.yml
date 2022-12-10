@@ -56,5 +56,11 @@
   name: "splunk"
   weight: 12
 - logo: "/images/brands/giant-swarm.svg"
-  name: "gaintswarm"
+  name: "giantswarm"
+  weight: 13
+- logo: "/images/brands/Qualtrics Mobile.svg"
+  name: "qualtrics"
+  weight: 13
+- logo: "/images/brands/Swyft Mobile.svg"
+  name: "Swyft"
   weight: 13
