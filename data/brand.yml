@@ -58,3 +58,9 @@
 - logo: "/images/brands/giant-swarm.svg"
   name: "gaintswarm"
   weight: 13
+- logo: "/images/brands/qualtrics.svg"
+  name: "qualtrics"
+  weight: 13
+- logo: "/images/brands/swyft.svg"
+  name: "swyft"
+  weight: 13
