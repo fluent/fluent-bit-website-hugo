@@ -1,0 +1,86 @@
+---
+title: 'v2.0.8'
+description: 'We provides the means for the collection, organization and computerized retrieval of knowledgeand Lightweight Data Forwarder for Linux, BSD, macOS and Windows.'
+url: "/announcements/v2.0.8/"
+release_date: 2022-12-23
+publishdate: 2022-12-23
+ver: v2.0.8
+herobg: "/images/hero@2x.jpg"
+latestVer: true
+---
+
+###### KNOWLEDGE BASE
+
+> NOTE: This is a minor hotfix release that covers for corner cases for metrics handling. We keep same
+release notes as part of v2
+
+### Release Notes v2.0.8
+
+[Fluent Bit](https://fluentbit.io) is a Fast and Lightweight Data Processor and Forwarder for Linux,
+BSD and OSX. We are proud to announce the availability of **Fluent Bit v2.0.8**.
+
+#### Introduction
+
+Fluent Bit v2.0 is the start of the new stable series of the project. During the last months our primary focus has been around extending support for Metrics, Traces and improving performance, among many others.
+
+#### News
+
+[Fluent Bit](https://fluentbit.io) v2.0 is the stable release!, new changes on this version:
+
+<br>
+
+ - Core
+   - CMakeLists: use FLB_DEFINTION for FLB_HAVE_*(#6519)
+   - revert: packaging: provide more options to build packages with (#6550)
+   - parser: fix two memory leaks when handling exceptions/exit
+   - parser: free `time_fmt_full` during interim cleanup
+   - storage: added code to set the irrecoverable chunk deletion flag
+   - input_chunk: added a function to destroy corrupted chunks
+   - config: fix two memory leaks when handling exceptions
+   - config: bail if multiline failed on initialization
+   - config: add safety checks on exit
+   - config: added a new storage config to delete irrecoverable chunks
+
+- Libs
+   - ctraces: upgrade to v0.2.7
+   - cmetrics: upgrade to v0.5.8
+   - chunkio: upgrade to v1.4.0
+
+ - Plugins
+   - Storage Backlog (Input)
+      - Added code to discard irrecoverable chunks if desired
+   - [Windows_Exporter_Metrics (Input)](https://docs.fluentbit.io/manual/pipeline/inputs/windows_exporter_metrics/)
+      - Implement allowing regex on net metrics to filter by name of nic
+      - Implement allow/deny regex for logical_disks
+      - Implement WMI system metrics
+      - Provide cs metrics
+      - Provide logical_disk metrics from perflib
+      - Proceed perflib operation at least 1 perf_object is existing
+      - Provide network interface metrics
+      - Implement OS metrics
+   - [Stackdriver (Output)](https://docs.fluentbit.io/manual/pipeline/outputs/stackdriver/)
+      - Add Cache token expiration and use it when using cached tokens (#6453)
+   - [Kafka (Output)](https://docs.fluentbit.io/manual/pipeline/outputs/kafka/)
+      - Support `iso8601_ns` format
+
+{{< contributor-list >}}
+#### Contributors
+
+On every release, there are many people involved doing contributions on different areas like bug reporting, troubleshooting, documentation and coding, without these contributions from the community, the project won’t be the same and won’t be in the good shape that it is now. So THANK YOU! to everyone who takes part of this journey!
+
+- [David Korczynski](https://github.com/DavidKorczynski)
+- [Takahiro Yamashita](https://github.com/nokute78)
+- [Eduardo Silva](https://github.com/edsiper)
+- [Leonardo Alminana](https://github.com/leonardo-albertovich)
+- FIXME: Ridwan Sharif <18472685+ridwanmsharif@users.noreply.github.com>
+- [Hiroshi Hatake](https://github.com/cosmo0920)
+
+{{< /contributor-list >}}
+
+#### Join us
+
+We want to hear about you, our community is growing and you can be part of it!, you can contact us at:
+
+* Github: [http://github.com/fluent/fluent-bit](https://github.com/fluent/fluent-bit)
+* Slack: [http://slack.fluentd.org](http://slack.fluentd.org)
+* Twitter: [@fluentbit](https://twitter.com/fluentbit)
