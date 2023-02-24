@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Fluentbit, High Performance"
-googleAnalytics = "UA-181341719-2" 
+googleAnalytics = "G-93T2VC0VBC" 
 
 [params]
 email = ""
