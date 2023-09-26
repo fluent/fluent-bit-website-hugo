@@ -29,7 +29,7 @@ To help put those numbers in perspective:
 ## Wait, how is that possible?
 
 First, you can see the exact count using the [Docker
-API](https://www.google.com/appsstatus/dashboard/)---look
+API](https://hub.docker.com/v2/repositories/fluent/fluent-bit/)---look
 for the pull_count key. Next, 10 billion Docker pulls does not mean that
 10 billion developers have downloaded Fluent Bit from Docker. Most of
 those pulls will be automated as organizations scale up their
