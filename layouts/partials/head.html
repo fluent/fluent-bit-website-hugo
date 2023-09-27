@@ -13,6 +13,10 @@
 	
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
 
+	{{ if .Params.canonicalUrl }}
+	<!-- Canonical link -->
+    <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+    {{ end }}	
 	
 		
 	{{ with site.Params.author }}
