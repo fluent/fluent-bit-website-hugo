@@ -6,8 +6,8 @@ url: "/announcements/v2.1/"
 herobg: "/images/hero@2x.jpg"
 latestVer: true
 releaseNotes:
-  heading: "Release Notes v2.2.0"
-  version: "v2.2.0"
+  heading: "Release Notes v2.2.1"
+  version: "v2.2.1"
   text: "Fluent Bit is a Fast and Lightweight Data Processor and Forwarder for Linux, BSD and OSX. We are proud to announce the availability of Fluent Bit v1.9.9. <br>
   For people upgrading from previous versions you must read the Upgrading Notes section of our documentation:
   https://docs.fluentbit.io/manual/installation/upgrade_notes"
