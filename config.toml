@@ -1,17 +1,17 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Fluentbit, High Performance"
-googleAnalytics = "G-93T2VC0VBC" 
+googleAnalytics = "G-93T2VC0VBC"
 
 [params]
 email = ""
 logo = "/images/logo.svg"
 logo2 = "/images/logo-white.svg"
 footer_logo = "/images/footer-logo.svg"
-copyright = "© 2015-2023 The Fluent Bit Authors. Fluent Bit is a CNCF sub-project under the umbrella of Fluentd"
-lastVersion = "v2.2.1"
-releasedOn = "Dec 22, 2023"
-noteUrl = "announcements/v2.2.1"
+copyright = "© 2015-2024 The Fluent Bit Authors. Fluent Bit is a CNCF sub-project under the umbrella of Fluentd"
+lastVersion = "v2.2.2"
+releasedOn = "Jan 14, 2024"
+noteUrl = "announcements/v2.2.2"
 
    [menu]
     [[menu.main]]
@@ -19,7 +19,7 @@ noteUrl = "announcements/v2.2.1"
         url = "https://docs.fluentbit.io/manual"
         name = "DOCUMENTATION"
         weight = 1
-        tab = "extranal" 
+        tab = "extranal"
     [[menu.main]]
         identifier = "how it works"
         url = "/how-it-works/"
@@ -29,22 +29,22 @@ noteUrl = "announcements/v2.2.1"
         identifier = "release notes"
         url = "/announcements/"
         name = "RELEASE NOTES"
-        weight = 3    
+        weight = 3
     [[menu.main]]
         identifier = "Enterprise"
         url = "/enterprise/"
         name = "Enterprise"
-        weight = 4    
+        weight = 4
     [[menu.main]]
         identifier = "Community"
         url = "/community/"
         name = "Community"
-        weight = 5 
+        weight = 5
     [[menu.main]]
         identifier = "blog"
         url = "/blog/"
         name = "Blog"
-        weight = 7   
+        weight = 7
 
     [[menu.main]]
         identifier = "slack"
@@ -54,7 +54,7 @@ noteUrl = "announcements/v2.2.1"
         pre = "/images/slack.svg"
         slack = "/images/slack-w.svg"
 
-    
+
     [params.latestVer]
     light = "true"
     text = "Check out the Release Notes, read the Updated Documentation or jump directly to the Downloads Section."
@@ -64,7 +64,7 @@ noteUrl = "announcements/v2.2.1"
     bottomText = ":: Read Documentation"
     bottomUrl = "https://docs.fluentbit.io/manual/"
 
-    
+
     [[params.footer.bottom]]
         url = "#"
         name = "Terms & Conditions"
@@ -84,15 +84,15 @@ noteUrl = "announcements/v2.2.1"
 
  [[params.social]]
     url   = "https://launchpass.com/fluent-all"
-    icon  = "/images/slack-color.svg" 
+    icon  = "/images/slack-color.svg"
     name = "slack"
  [[params.social]]
     url   = "https://twitter.com/fluentbit"
-    icon  = "/images/twitter-color.svg" 
+    icon  = "/images/twitter-color.svg"
     name = "twitter"
 #  [[params.social]]
 #     url   = "https://www.youtube.com/results?search_query=fluentbit"
-#     icon  = "fa fa-youtube-play" 
+#     icon  = "fa fa-youtube-play"
 #     name = "youtube"
 
 
@@ -148,7 +148,7 @@ noteUrl = "announcements/v2.2.1"
     lineNos = true
     lineNumbersInTable = true
     noClasses = true
-    style = 'api' 
+    style = 'api'
     tabWidth = 20
     # style= 'monika api fruity monokai native paraiso-dark rrt solarized-dark solarized-dark256 swapoff vim'
 
@@ -156,7 +156,7 @@ noteUrl = "announcements/v2.2.1"
     endLevel = 3
     ordered = true
     startLevel = 2
-  
+
   [markup.goldmark.renderer]
     unsafe= true
 
