@@ -64,3 +64,6 @@
 - logo: "/images/brands/swyft.svg"
   name: "swyft"
   weight: 13
+- logo: "/images/brands/dell.svg"
+  name: "dell"
+  weight: 13
