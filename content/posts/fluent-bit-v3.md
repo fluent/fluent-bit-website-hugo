@@ -7,7 +7,6 @@ image: "https://www.datocms-assets.com/97087/1710512087-fluentbitv3_creatives_tw
 author: "Calyptia Team"
 canonicalUrl: "https://calyptia.com/blog/fluent-bit-v3"
 herobg: "https://www.datocms-assets.com/97087/1689182792-background-fluent-bit.png"
-publishDate: 2024-03-19T00:00:04-04:00
 slug: fluent-bit-v3
 aliases:
 - /blog/fluent-bit-v3
