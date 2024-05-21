@@ -14,7 +14,7 @@ hero:
   btnUrl: "https://play.instruqt.com/Fluent/tracks/fluent-bit-getting-started-101"
   btnText: DOWNLOAD NOW
   btnUrl: "https://docs.fluentbit.io/manual/installation/getting-started-with-fluent-bit"
-  noteText: Read the notes »
+  noteText: Read the notes » (Includes fix for CVE-2024-4323)
   image: "/images/hero.svg"
   mobileImage: "/images/hero-m.svg"
 howitworks: 
