@@ -3,7 +3,7 @@ title: "Announcing Fluent Bit v3"
 date: "2024-03-19"
 description: "The new release allows the filtering of Windows and MacOS metrics, 
 supports SQL for parsing logs, adds support for HTTP/2, and more."
-image: "https://www.datocms-assets.com/97087/1710512087-fluentbitv3_creatives_twitter.png?auto=format&fit=max&w=1200"
+image: "../images/blog/fluent-bit-v3.png"
 author: "Calyptia Team"
 canonicalUrl: "https://calyptia.com/blog/fluent-bit-v3"
 herobg: "https://www.datocms-assets.com/97087/1689182792-background-fluent-bit.png"
