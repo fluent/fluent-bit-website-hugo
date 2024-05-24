@@ -7,6 +7,6 @@ heroBg: "/images/hero.jpg"
 latestVer: true
 ---
 
-{{% content "announcements/v3.0/v3.0.4.md" %}}
+{{% content "announcements/v3.0/v3.0.5.md" %}}
 
 {{% button href="/announcements/older-versions/"  position="center" text-transform="" class="btn-gradient" margin="0px 0px 30px"  %}}See Older Versions{{% /button %}}
