@@ -9,9 +9,9 @@ logo = "/images/logo.svg"
 logo2 = "/images/logo-white.svg"
 footer_logo = "/images/footer-logo.svg"
 copyright = "© 2015-2024 The Fluent Bit Authors. Fluent Bit is a CNCF sub-project under the umbrella of Fluentd"
-lastVersion = "v3.0.5"
-releasedOn = "May 24, 2024"
-noteUrl = "announcements/v3.0.5"
+lastVersion = "v3.0.6"
+releasedOn = "May 26, 2024"
+noteUrl = "announcements/v3.0.6"
 
    [menu]
     [[menu.main]]
