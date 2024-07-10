@@ -1,7 +1,7 @@
 ---
 title: 'fluentbit'
 description: ''
-hero:  
+hero:
   enabled: true
   position: 1
   heading: |
@@ -14,27 +14,27 @@ hero:
   btnUrl: "https://play.instruqt.com/Fluent/tracks/fluent-bit-getting-started-101"
   btnText: DOWNLOAD NOW
   btnUrl: "https://docs.fluentbit.io/manual/installation/getting-started-with-fluent-bit"
-  noteText: Read the notes » (Includes fix for CVE-2024-4323)
+  noteText: Read the notes »
   image: "/images/hero.svg"
   mobileImage: "/images/hero-m.svg"
-howitworks: 
+howitworks:
   enabled: true
   position: 5
-  image: /images/how-back.svg   
+  image: /images/how-back.svg
   btnText: Read how it works
   btnUrl: "/how-it-works/"
   info: Fluent Bit enables you to collect logs and metrics from multiple sources, enrich them with filters, and distribute them to any defined destination.
-  lists: 
+  lists:
   - Optimized data parsing and routing
   - Prometheus and OpenTelemetry compatible
   - Stream processing functionality
   - Built in buffering and error-handling capabilities
-brand: 
-  enabled: true 
+brand:
+  enabled: true
   position: 2
   heading: Trusted by some of the world’s largest and most complex organizations
-  subHeading: 
-performance: 
+  subHeading:
+performance:
   enabled: true
   position: 3
   sectionId: "performance"
@@ -58,7 +58,7 @@ performance:
     icon: /images/extensible.svg
     description: "Integration with all your technology - cloud native services, containers, streaming processors, and data backends."
     heightlightText: "80+ Plugins for inputs, filters, analytics tools and outputs."
-ctaBoxed: 
+ctaBoxed:
   enabled: true
   position: 4
   image: /images/cloun-native.svg
@@ -87,7 +87,7 @@ highPerformance:
     description: Filter out data from <br> expensive backends
     image: /images/reduce-cost.svg
     imagePosition:
-  - heading: Tested at 100K /s <br> at 125 MB/s. 
+  - heading: Tested at 100K /s <br> at 125 MB/s.
     align: center
     description: Check out our benchmarks"
     image: /images/tested.svg
@@ -106,7 +106,7 @@ testimonials:
   enabled: false
   position: 5
   heading: Our Reviews
-  subHeading: 
+  subHeading:
 features:
   enabled: true
   position: 5
