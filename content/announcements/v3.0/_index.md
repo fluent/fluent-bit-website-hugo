@@ -1,5 +1,5 @@
 ---
-title: 'Fluent Bit v3.0 Series'
+title: 'Fluent Bit v3.0 Series (EOL Sep 11, 2024)'
 description: "[Fluent Bit v1.9](https://github.com/fluent/fluent-bit/tree/master) is the new **stable branch** for production usage. Based on bug reports or
 specific minor feature requests, we do quick releases upon demand. Below is a list of the notes for each version."
 url: "/announcements/v3.0/"
