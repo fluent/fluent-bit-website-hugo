@@ -295,7 +295,7 @@ approach, ensuring data safety and efficient memory management. These techniques
 are essential for optimizing Fluent Bit in high-throughput environments,
 ensuring robust and reliable log processing.
 
-![Meme: Thanos perfectly balanced as all things should be](/images/blog/1706539804-blog-backpressure-meme.jpg&w=3840&q=75)For more information on this topic, refer to the documentation below
+![Meme: Thanos perfectly balanced as all things should be](/images/blog/1706539804-blog-backpressure-meme.jpg)For more information on this topic, refer to the documentation below
 
 * [Administrating Backpressure In Fluent Bit](https://docs.fluentbit.io/manual/administration/backpressure)
 * [How to configure buffering & storage in Fluent Bit](https://docs.fluentbit.io/manual/administration/buffering-and-storage)

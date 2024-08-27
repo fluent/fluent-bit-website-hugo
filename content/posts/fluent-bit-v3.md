@@ -12,10 +12,9 @@ aliases:
 - /blog/fluent-bit-v3
 ---
 **This post is [republished from the Chronosphere blog](https://calyptia.com/blog/fluent-bit-v3). 
-[Calyptia](https://calyptia.com) is the primary sponsor 
-and creator of the Fluent Bit project.*
+With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
-![Fluent Bit v3](/images/blog/1710511162-fluentbitv3-creatives-1600x836.png)
+![Fluent Bit v3](/images/blog/fluent-bit-v3-1024x535.png)
 
 # Fluent Bit v3 gives users greater control of their data and telemetry pipelines
 
