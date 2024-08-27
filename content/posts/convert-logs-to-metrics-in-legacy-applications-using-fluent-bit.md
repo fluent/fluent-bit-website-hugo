@@ -2,10 +2,10 @@
 title: "Convert Logs To Metrics in Legacy Applications Using Fluent Bit"
 date: "2023-11-13"
 description: "Learn how Fluent Bit can derive metrics from application logs, helping to bridge the gap between limited telemetry sources and comprehensive observability."
-image: "https://www.datocms-assets.com/97087/1699633863-logs-to-metrics-social.png?auto=format&fit=max&w=1200"
+image: "/images/blog/1699633863-logs-to-metrics-social.png"
 author: "Sharad Regoti"
 canonicalUrl: "https://calyptia.com/blog/convert-logs-to-metrics-in-legacy-applications-using-fluent-bit"
-herobg: "https://www.datocms-assets.com/97087/1689182792-background-fluent-bit.png"
+herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
 **This post is [republished from the Chronosphere blog](https://calyptia.com/blog/convert-logs-to-metrics-in-legacy-applications-using-fluent-bit). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
@@ -99,7 +99,7 @@ kubectl apply -f application.yaml
 kubectl logs deploy/legacy-application
 ```
 
-![Screenshots of log data in terminal](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1699628377-blog_logs_to_metrics_image2.png&w=3840&q=75)## **Converting Logs To Metrics**
+![Screenshots of log data in terminal](/images/blog/1699628377-blog-logs-to-metrics-image2.png)## **Converting Logs To Metrics**
 
 Metrics are stored in a [Time Series Database](https://en.wikipedia.org/wiki/Time_series_database) such as Prometheus, InfluxDB, VictoriaMetrics etc. These databases require metrics to be stored in particular data types such as counter, gauge and histogram. Converting raw logs into structured metrics involves a systematic approach, the below rules give a brief outline.
 
@@ -125,7 +125,7 @@ From application logs, the request field contains the endpoint path for HTTP req
 
 With the prerequisites for metrics now elucidated, let’s implement it in practice.
 
-![Flow cart showing how to convert logs to metrics](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1699629283-blog_logs_to_metrics_image4.png&w=3840&q=75)Converting Logs to Metrics with Fluent BitHere’s the Fluent Bit configuration that enables the log processing pipeline depicted above:
+![Flow cart showing how to convert logs to metrics](/images/blog/1699629283-blog-logs-to-metrics-image4.png)Converting Logs to Metrics with Fluent BitHere’s the Fluent Bit configuration that enables the log processing pipeline depicted above:
 
 
 ```yaml
@@ -379,14 +379,14 @@ To see the http request rate metric, execute the following PromQL query:
 rate(log_metric_counter_http_requests_total[1m])
 ```
 
-![Prometheus Screen Capture](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1699632801-blog_logs_to_metrics_image3.png&w=3840&q=75)http request rate derived from logsTo obtain the http error rate, execute the below PromQL query:
+![Prometheus Screen Capture](/images/blog/1699632801-blog-logs-to-metrics-image3.png)http request rate derived from logsTo obtain the http error rate, execute the below PromQL query:
 
 
 ```graphql
 rate(log_metric_counter_http_status_500_total [1m]) / rate(log_metric_counter_http_requests_total [1m])
 ```
 
-![Prometheus screen capture](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1699633188-blog_logs_to_metrics_image1.png&w=3840&q=75)http request rate metric derived from logs## **Conclusion**
+![Prometheus screen capture](/images/blog/1699633188-blog-logs-to-metrics-image1.png)http request rate metric derived from logs## **Conclusion**
 
 Fluent Bit is [one of the most widely adopted logging and metrics processors and forwarders](https://calyptia.com/blog/fluent-bit-surpasses-10-billion-docker-pulls). It is deployed by default in major Kubernetes distributions, including Google Kubernetes Engine (GKE), AWS Elastic Kubernetes Service (EKS), and Azure Kubernetes Service (AKS), and is being used by top technology companies Meta, Cisco, LinkedIn, and many more. 
 
@@ -394,7 +394,7 @@ The Logs to Metrics filter enables Fluent Bit to solve more challenges for organ
 
 ## Learn more about data processing with Fluent Bit
 
-![Fluent Bit Advanced Processing](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1697782227-ondemand_newsize.png&w=3840&q=75)Fluent Bit Advanced ProcessingConverting logs to metrics is just one of the ways that Fluent Bit enables users to process in-flight data as it flows through the pipeline before arriving at its destination. Fluent Bit can also redact or enrich your data and analyze it to determine where it should be routed based upon your business rules. There are [dozens of native plugins](https://docs.fluentbit.io/manual/pipeline/filters) available that allow you to process and transform your data in flight. To learn more, check out our free, on-demand webinar “[Advanced Processing with Fluent Bit](https://calyptia.com/on-demand-webinar-fluent-bit-advanced-processing).”
+![Fluent Bit Advanced Processing](/images/blog/1697782227-ondemand-newsize.png)Fluent Bit Advanced ProcessingConverting logs to metrics is just one of the ways that Fluent Bit enables users to process in-flight data as it flows through the pipeline before arriving at its destination. Fluent Bit can also redact or enrich your data and analyze it to determine where it should be routed based upon your business rules. There are [dozens of native plugins](https://docs.fluentbit.io/manual/pipeline/filters) available that allow you to process and transform your data in flight. To learn more, check out our free, on-demand webinar “[Advanced Processing with Fluent Bit](https://calyptia.com/on-demand-webinar-fluent-bit-advanced-processing).”
 
-![Fluent Bit with Kubernetes](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1699050117-manning-promo.png&w=3840&q=75)Or download a free preview copy of [*Fluent Bit with Kubernetes*](https://calyptia.com/fluent-bit-with-kubernetes-manning) by Phil Wilkins, compliments of Calyptia, the creators of Fluent Bit. 
+![Fluent Bit with Kubernetes](/images/blog/1699050117-manning-promo.png)Or download a free preview copy of [*Fluent Bit with Kubernetes*](https://calyptia.com/fluent-bit-with-kubernetes-manning) by Phil Wilkins, compliments of Calyptia, the creators of Fluent Bit. 
 

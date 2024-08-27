@@ -4,10 +4,10 @@ date: "2023-10-05"
 description: "Use Fluent Bit's WASM plugin to process and evaluate Kubernetes
 labels in streaming logs and determine where the log data should be routed for
 storage."
-image: "https://www.datocms-assets.com/97087/1696524913-dynamic-routing-wasm-social.png?auto=format&fit=max&w=1200"
+image: "/images/blog/1696524913-dynamic-routing-wasm-social.png"
 author: "Sharad Regoti"
 canonicalUrl: "https://calyptia.com/blog/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm"
-herobg: "https://www.datocms-assets.com/97087/1689182792-background-fluent-bit.png"
+herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
 **This post is [republished from the Chronosphere blog](https://calyptia.com/blog/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm). 
 With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
@@ -338,7 +338,7 @@ tinygo build -wasm-abi=generic -target=wasi -o filter.wasm filter.go
 ```
 ## **Configuring Fluent Bit To Use WASM Plugin**
 
-![Illustration of pipeline](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1696534425-dynamic-routing-wasm-pipeline.png&w=3840&q=75)Here’s the Fluent Bit configuration that enables the log processing pipeline depicted above:
+![Illustration of pipeline](/images/blog/1696534425-dynamic-routing-wasm-pipeline.png)Here’s the Fluent Bit configuration that enables the log processing pipeline depicted above:
 
 
 ```yaml
@@ -543,7 +543,7 @@ Use the command below to check Fluent Bit logs
 ```
 kubectl logs <fluent-bit-pod-name> -f
 ```
-![screenshot of log output with our modified tag highlighted](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1696532343-dynamic-routing-final-logs.png&w=3840&q=75)You should be able to view modified tags as shown in the above image.
+![screenshot of log output with our modified tag highlighted](/images/blog/1696532343-dynamic-routing-final-logs.png)You should be able to view modified tags as shown in the above image.
 
 ## **Conclusion**
 
