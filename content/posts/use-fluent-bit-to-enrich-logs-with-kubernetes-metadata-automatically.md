@@ -3,7 +3,7 @@ title: "Use Fluent Bit to Enrich Logs with Kubernetes Metadata, Automatically"
 date: "2023-08-08"
 description: "Learn how Kubernetes metadata can enhance traceability and enrich
 diagnostics and how Fluent Bit makes it possible"
-image: "https://www.datocms-assets.com/97087/1691520029-banner.png?auto=format&fit=max&w=1200"
+image: "/images/blog/1691520029-banner.png"
 author: "Celalettin Calis"
 canonicalUrl: "https://calyptia.com/blog/use-fluent-bit-to-enrich-logs-with-kubernetes-metadata-automatically"
 herobg: "/images/background-fluent-bit.png"
@@ -40,7 +40,7 @@ Today we are going to talk about the value of Kubernetes metadata and how using
 this with Fluent Bit can enable you to enhance traceability and enrich
 diagnostics.
 
-![Fluent Bit + Kubernetes logging](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1691510930-fluent-bit-kubernetes-logging.png&w=1920&q=75)
+![Fluent Bit + Kubernetes logging](/images/blog/1691510930-fluent-bit-kubernetes-logging.png)
 
 ## Understanding Kubernetes Metadata
 
