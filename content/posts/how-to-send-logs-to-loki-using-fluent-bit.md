@@ -6,7 +6,7 @@ image: "https://www.datocms-assets.com/97087/1681245707-featured-logs-loki.webp?
 author: "Sudhanshu Prajapati"
 canonicalUrl: "https://calyptia.com/blog/how-to-send-logs-to-loki-using-fluent-bit"
 ---
-*This post was originally published on the Calyptia blog. [Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
+*This post was originally published on the Calyptia blog. With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 ![graphic showing a log file with an arrow pointing to the Fluent Bit logo which in turn points to the Grafana Loki logo](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1681244979-logs-fluent-loki.webp&w=2048&q=75)Modern applications generate a massive volume of logs and other telemetry data, which requires an efficient log management solution. Loki, an open-source log aggregation system from Grafana, is a popular solution for companies. It allows for storing, searching, and analyzing huge volumes of data quickly and easily. Grafana has an open-source observability stack called LGTM, which stands for Logs, Metrics, Traces, and Monitoring. LGTM consists of various components, including Loki for logs, Prometheus for metrics, Jaeger for tracing, and Grafana for visualization. For the scope of this blog, we will look into Loki.
 
