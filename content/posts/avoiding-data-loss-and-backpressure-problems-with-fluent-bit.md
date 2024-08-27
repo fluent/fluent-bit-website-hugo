@@ -6,17 +6,17 @@ description: "A practical guide on how to detect and avoid backpressure problems
 with Fluent Bit by balancing memory-based and filesystem-based buffering."
 image: "/images/blog/1701353456-general-fluent-bit-preview-card.png"
 author: "Sharad Regoti"
-canonicalUrl: "https://calyptia.com/blog/avoiding-data-loss-and-backpressure-problems-with-fluent-bit"
+canonicalUrl: "https://chronosphere.io/learn/avoiding-data-loss-and-backpressure-problems-with-fluent-bit/"
 herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
-**This post is [republished from the Chronosphere blog](https://calyptia.com/blog/avoiding-data-loss-and-backpressure-problems-with-fluent-bit). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
+**This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/avoiding-data-loss-and-backpressure-problems-with-fluent-bit/). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 ## Introduction
 
 Fluent Bit is a widely used open-source data collection agent, processor, and forwarder 
 that enables you to collect logs, metrics, and traces from various sources, filter and 
 transform them, and then forward them to multiple destinations. With over 
-[ten billion Docker](https://calyptia.com/blog/fluent-bit-surpasses-10-billion-docker-pulls) 
+[ten billion Docker](https://chronosphere.io/learn/fluent-bit-surpasses-10-billion-docker-pulls/) 
 pulls, Fluent Bit has established itself as a preferred choice for log processing, 
 collecting, and shipping.
 
@@ -207,7 +207,7 @@ docker logs <container-id> | grep -i "pausing\\|resume"
 
 If you are observing the above logs in Fluent Bit, it is a sign of Fluent Bit hitting the 
 configured memory limits at input plugins due to backpressure. Check out this blog post 
-on [how to configure alerts from logs using Fluent Bit](https://calyptia.com/blog/fluent-bit-alerting-via-slack).
+on [how to configure alerts from logs using Fluent Bit](https://chronosphere.io/learn/fluent-bit-alerting-slack/).
 
 In the upcoming section, we will see how to achieve both data safety and memory
 safety.

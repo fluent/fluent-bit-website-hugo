@@ -4,7 +4,7 @@ date: "2023-09-25"
 description: "That’s billion, with a “B.” It is currently averaging over 23 million pulls per day. That’s 270 pulls every second, 24/7"
 image: "/images/blog/1695998714-10-billion-party.png"
 author: "Erik Bledsoe"
-canonicalUrl: "https://calyptia.com/blog/fluent-bit-surpasses-10-billion-docker-pulls"
+canonicalUrl: "https://chronosphere.io/learn/fluent-bit-surpasses-10-billion-docker-pulls/"
 ---
 *This post was originally published on the Calyptia blog. With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 

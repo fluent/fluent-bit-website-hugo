@@ -5,10 +5,10 @@ description: "Learn how Kubernetes metadata can enhance traceability and enrich
 diagnostics and how Fluent Bit makes it possible"
 image: "/images/blog/1691520029-banner.png"
 author: "Celalettin Calis"
-canonicalUrl: "https://calyptia.com/blog/use-fluent-bit-to-enrich-logs-with-kubernetes-metadata-automatically"
+canonicalUrl: "https://chronosphere.io/learn/enrich-logs-with-kubernetes-metadata-fluent-bit/"
 herobg: "/images/background-fluent-bit.png"
 ---
-**This post is [republished from the Chronosphere blog](https://calyptia.com/blog/use-fluent-bit-to-enrich-logs-with-kubernetes-metadata-automatically). 
+**This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/enrich-logs-with-kubernetes-metadata-fluent-bit/). 
 With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 If you’re in the world of application orchestration (microservices, CI/CD,

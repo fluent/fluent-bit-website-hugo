@@ -6,16 +6,16 @@ labels in streaming logs and determine where the log data should be routed for
 storage."
 image: "/images/blog/1696524913-dynamic-routing-wasm-social.png"
 author: "Sharad Regoti"
-canonicalUrl: "https://calyptia.com/blog/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm"
+canonicalUrl: "https://chronosphere.io/learn/dynamic-log-routing-on-kubernetes-labels-fluent-bit/"
 herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
-**This post is [republished from the Chronosphere blog](https://calyptia.com/blog/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm). 
+**This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/dynamic-log-routing-on-kubernetes-labels-fluent-bit/). 
 With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 Fluent Bit is a widely-used open-source data collection agent, processor, and forwarder 
 that enables you to collect logs, metrics, and traces from various sources, filter and 
 transform them, and then forward them to multiple destinations. With over 
-[ten billion Docker](https://calyptia.com/blog/fluent-bit-surpasses-10-billion-docker-pulls) 
+[ten billion Docker](https://chronosphere.io/learn/fluent-bit-surpasses-10-billion-docker-pulls/) 
 pulls, Fluent Bit has established itself as a preferred choice for log processing, 
 collecting, and shipping.
 

@@ -4,10 +4,10 @@ date: "2023-11-30"
 description: "Learn how to enrich Kubelet logs with metadata from the K8s API server using Fluent Bit along with troubleshooting tips for common misconfigurations."
 image: "/images/blog/1701353456-general-fluent-bit-preview-card.png"
 author: "Patrick Stephens"
-canonicalUrl: "https://calyptia.com/blog/kubernetes-metadata-enrichment-with-fluent-bit-with-troubleshooting-tips"
+canonicalUrl: "https://chronosphere.io/learn/fluent-bit-kubernetes-filter/"
 herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
-**This post is [republished from the Chronosphere blog](https://calyptia.com/blog/kubernetes-metadata-enrichment-with-fluent-bit-with-troubleshooting-tips). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
+**This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/fluent-bit-kubernetes-filter/). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 When run in Kubernetes (K8s) as a [daemonset](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/), Fluent Bit can ingest Kubelet logs and enrich them with additional metadata from the Kubernetes API server. This includes any annotations or labels on the pod and information about the namespace, pod, and the container the log is from. It is very simple to do, and, in fact, it is also the default setup when deploying Fluent Bit via the [helm chart](https://docs.fluentbit.io/manual/installation/kubernetes).
 

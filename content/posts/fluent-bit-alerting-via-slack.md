@@ -4,9 +4,9 @@ date: "2023-08-28"
 description: "Learn how to use Fluent Bit to identify irregularities in the data pipeline as they occur and send alerts to Slack"
 image: "/images/blog/1693238432-fluent-bit-slack-social.png"
 author: "Sharad Regoti"
-canonicalUrl: "https://calyptia.com/blog/fluent-bit-alerting-via-slack"
+canonicalUrl: "https://chronosphere.io/learn/fluent-bit-alerting-slack/"
 ---
-*This post was originally published on the Calyptia blog. With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/fluent-bit-alerting-slack/). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/)</a>. Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 Fluent Bit is a widely-used open-source data collection agent, processor, and forwarder that enables you to collect logs, metrics, and traces from various sources, filter and transform them, and then forward them to multiple destinations.
 
