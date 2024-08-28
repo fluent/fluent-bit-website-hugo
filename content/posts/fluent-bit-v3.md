@@ -129,14 +129,14 @@ processing them in mid-stream, and routing them to any number of backends.
 ## Learn more
 
 To learn more about Fluent Bit, visit the [project website](https://fluentbit.io/) 
-or the recently launched [Fluent Bit Academy](https://calyptia.com/on-demand-webinars) 
+or the recently launched [Fluent Bit Academy](https://chronosphere.io/fluent-bit-academy/) 
 where you will find hours of on-demand training videos covering best practices and 
 how-to’s on advanced processing, routing, and all things Fluent Bit. 
 Here’s a sample of what you can find there:
 
-* [Fluent Bit for Windows](https://calyptia.com/on-demand-webinars/on-demand-fluent-bit-for-windows)
-* [Getting Started with Fluent Bit and OpenSearch](https://calyptia.com/on-demand-webinars/getting-started-with-fluent-bit-and-opensearch)
-* [Getting Started with Fluent Bit and OpenTelemetry](https://calyptia.com/on-demand-webinars/getting-started-with-fluent-bit-and-opentelemetry)
+* [Fluent Bit for Windows](https://chronosphere.io/fluent-bit-academy/)
+* [Getting Started with Fluent Bit and OpenSearch](https://chronosphere.io/fluent-bit-academy/)
+* [Getting Started with Fluent Bit and OpenTelemetry](https://chronosphere.io/fluent-bit-academy/)
 
 We also invite you to join the vibrant Fluent community. Visit the 
 [project’s GitHub repository](https://github.com/fluent/fluent-bit) to 

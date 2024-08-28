@@ -302,7 +302,7 @@ ensuring robust and reliable log processing.
 
 ## You may also be interested in
 
-To continue expanding your Fluent Bit knowledge, check out [Fluent Bit Academy](https://calyptia.com/on-demand-webinars). 
+To continue expanding your Fluent Bit knowledge, check out [Fluent Bit Academy](https://chronosphere.io/fluent-bit-academy/). 
 It’s filled with on-demand videos guiding you through all things Fluent Bit — best 
 practices and how-to’s on advanced processing rules, routing to multiple destinations, 
 and much more.
