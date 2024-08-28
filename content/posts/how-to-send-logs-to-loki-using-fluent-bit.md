@@ -2,13 +2,13 @@
 title: "How to send Logs to Loki using Fluent Bit"
 date: "2023-03-01"
 description: "A guide to using Fluent Bit to send logs to Loki along with a discussion about why this is a better option than using the agent provided by Grafana."
-image: "https://www.datocms-assets.com/97087/1681245707-featured-logs-loki.webp?auto=format&fit=max&w=1200"
+image: "/images/blog/1681245707-featured-logs-loki.webp?auto=format&fit=max&w=1200"
 author: "Sudhanshu Prajapati"
 canonicalUrl: "https://calyptia.com/blog/how-to-send-logs-to-loki-using-fluent-bit"
 ---
 *This post was originally published on the Calyptia blog. [Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
 
-![graphic showing a log file with an arrow pointing to the Fluent Bit logo which in turn points to the Grafana Loki logo](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1681244979-logs-fluent-loki.webp&w=2048&q=75)Modern applications generate a massive volume of logs and other telemetry data, which requires an efficient log management solution. Loki, an open-source log aggregation system from Grafana, is a popular solution for companies. It allows for storing, searching, and analyzing huge volumes of data quickly and easily. Grafana has an open-source observability stack called LGTM, which stands for Logs, Metrics, Traces, and Monitoring. LGTM consists of various components, including Loki for logs, Prometheus for metrics, Jaeger for tracing, and Grafana for visualization. For the scope of this blog, we will look into Loki.
+![graphic showing a log file with an arrow pointing to the Fluent Bit logo which in turn points to the Grafana Loki logo](/images/blog/1681244979-logs-fluent-loki.webp&w=2048&q=75)Modern applications generate a massive volume of logs and other telemetry data, which requires an efficient log management solution. Loki, an open-source log aggregation system from Grafana, is a popular solution for companies. It allows for storing, searching, and analyzing huge volumes of data quickly and easily. Grafana has an open-source observability stack called LGTM, which stands for Logs, Metrics, Traces, and Monitoring. LGTM consists of various components, including Loki for logs, Prometheus for metrics, Jaeger for tracing, and Grafana for visualization. For the scope of this blog, we will look into Loki.
 
 Fluent Bit is a leading open-source solution for collecting, processing, and routing large volumes of telemetry data. It is widely used as an agent for sending logs to Loki. In this blog, we will cover why using Fluent Bit to send logs to Loki is a better option than using the agent provided by Grafana with a demo example.
 
@@ -117,7 +117,7 @@ To set up your configuration, you will need to gather some information from your
 * USER\_NAME – User name of Cloud Loki Instance
 * API\_KEY – API Key of Cloud Loki Instance
 
-![Screen capture of Grafana](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1681245263-grafana-cloud-screengrab.png&w=3840&q=75)Once you have gathered the required information, add the following to your fluent-bit.conf file below the Input section.
+![Screen capture of Grafana](/images/blog/1681245263-grafana-cloud-screengrab.png)Once you have gathered the required information, add the following to your fluent-bit.conf file below the Input section.
 
 
 ```yaml
@@ -251,9 +251,10 @@ Once, all the services are up, as defined in docker-compose, you can head over t
 
 Check out the below screenshot where Logs are coming to cloud Loki.
 
-![Screen capture from Grafana](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1681245438-screengrab-grafana-2.png&w=3840&q=75)At the same time, it is coming to our local instance of Loki; since we’ve already added Loki as a datasource, we can explore that in Grafana now.
+![Screen capture from Grafana](/images/blog/1681245438-screengrab-grafana-2.png)
+At the same time, it is coming to our local instance of Loki; since we’ve already added Loki as a datasource, we can explore that in Grafana now.
 
-![Screen capture](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1681245499-screengrab-grafana-3.png&w=3840&q=75)That’s it, and you have successfully built your own logs pipeline. Now, let’s take a look at what more you can do with Fluent Bit.
+![Screen capture](/images/blog/1681245499-screengrab-grafana-3.png)That’s it, and you have successfully built your own logs pipeline. Now, let’s take a look at what more you can do with Fluent Bit.
 
 ## More with Fluent Bit
 
@@ -272,7 +273,8 @@ Routing is particularly powerful as it allows you to redirect non-essential data
 
 As we have seen, Fluent Bit is a powerful component of your telemetry pipeline and is relatively simple to configure manually. However, such manual configuration becomes untenable as your infrastructure scales to dozens, hundreds, or even thousands of sources. If you want to learn more about how you can segment logs per destination, we have a blog where you can read more about it.
 
-![screen capture of Calyptia Core](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1681245546-screengrab-core.png&w=3840&q=75)[Calyptia Core](https://calyptia.com/products/calyptia-core) allows organizations to manage their telemetry pipelines with click-and-drag simplicity at scale. Powered by Fluent Bit, it provides all of the benefits of the open source solution and offers a clean and intuitive interface for managing and configuring your telemetry pipeline — **no more manual editing of config files** — which can dramatically reduce the time and resources spent on management and increase the efficiency of your Dev teams.
+![screen capture of Calyptia Core](/images/blog/1681245546-screengrab-core.png)
+[Calyptia Core](https://calyptia.com/products/calyptia-core) allows organizations to manage their telemetry pipelines with click-and-drag simplicity at scale. Powered by Fluent Bit, it provides all of the benefits of the open source solution and offers a clean and intuitive interface for managing and configuring your telemetry pipeline — **no more manual editing of config files** — which can dramatically reduce the time and resources spent on management and increase the efficiency of your Dev teams.
 
 [Schedule a demo](https://calyptia.com/demo) to see how Calyptia Core can help you reduce costs and increase productivity.
 

@@ -2,10 +2,10 @@
 title: "Kubernetes Metadata Enrichment with Fluent Bit (with Troubleshooting Tips)"
 date: "2023-11-30"
 description: "Learn how to enrich Kubelet logs with metadata from the K8s API server using Fluent Bit along with troubleshooting tips for common misconfigurations."
-image: "https://www.datocms-assets.com/97087/1701353456-general-fluent-bit-preview-card.png?auto=format&fit=max&w=1200"
+image: "/images/blog/1701353456-general-fluent-bit-preview-card.png"
 author: "Patrick Stephens"
 canonicalUrl: "https://calyptia.com/blog/kubernetes-metadata-enrichment-with-fluent-bit-with-troubleshooting-tips"
-herobg: "https://www.datocms-assets.com/97087/1689182792-background-fluent-bit.png"
+herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
 *This post was [originally published on the Calyptia blog](https://calyptia.com/blog/kubernetes-metadata-enrichment-with-fluent-bit-with-troubleshooting-tips). [Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
 
@@ -73,7 +73,7 @@ Now we can extract the relevant fields with a regex:
 * container\_name = *apache*
 * container\_id = *aeeccc7a9f00f6e4e066aeff0434cf80621215071f1b20a51e8340aa7c35eac6*
 
-![Process illustration demonstrating how the Kubernetes filter works](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1701369935-fluent-bit-kubernetes-filter-process.png&w=3840&q=75)<caption>The Fluent Bit Kubernetes filter extracts information from the log filename in order to query the K8s API server to retrieve metadata that is then added to the log file.</caption>
+![Process illustration demonstrating how the Kubernetes filter works](/images/blog/1701369935-fluent-bit-kubernetes-filter-process.png)<caption>The Fluent Bit Kubernetes filter extracts information from the log filename in order to query the K8s API server to retrieve metadata that is then added to the log file.</caption>
 
 ## Misconfiguration woes
 

@@ -2,7 +2,7 @@
 title: "Fluent Bit: Alerting via Slack when the log destination is unreachable"
 date: "2023-08-28"
 description: "Learn how to use Fluent Bit to identify irregularities in the data pipeline as they occur and send alerts to Slack"
-image: "https://www.datocms-assets.com/97087/1693238432-fluent-bit-slack-social.png?auto=format&fit=max&w=1200"
+image: "/images/blog/1693238432-fluent-bit-slack-social.png"
 author: "Sharad Regoti"
 canonicalUrl: "https://calyptia.com/blog/fluent-bit-alerting-via-slack"
 ---
@@ -28,7 +28,7 @@ Such situations can directly impede the efficiency of your logging stack. Curiou
 
 However, Fluent Bit also generates logs, so we can use them to identify delivery errors. When  a destination fails to receive messages, Fluent Bit retries the delivery.  After the [configured retry limit](https://docs.fluentbit.io/manual/administration/scheduling-and-retries#configuring-retries) is exhausted, Fluent Bit logs an error on standard output. The below image represents the error logging behavior when a destination fails.
 
-![logs in the terminal showing retries and then an error](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1693229034-fluent-bit-error-logs.png&w=3840&q=75)We can use Fluent Bit’s error logging behavior to enable alerting. The underlying principle is elegantly simple: we proactively monitor logs emitted by the Fluent Bit application that serve as indicators of destination failures. Subsequently, we translate these logs into actionable alerts.
+![logs in the terminal showing retries and then an error](/images/blog/1693229034-fluent-bit-error-logs.png)We can use Fluent Bit’s error logging behavior to enable alerting. The underlying principle is elegantly simple: we proactively monitor logs emitted by the Fluent Bit application that serve as indicators of destination failures. Subsequently, we translate these logs into actionable alerts.
 
  We will delve into the practical implementation of this strategy in the subsequent sections.
 
@@ -43,7 +43,7 @@ However, Fluent Bit also generates logs, so we can use them to identify delivery
 
 Let’s start by establishing an initial configuration that mirrors the scenario where the output plugin encounters difficulties in transmitting logs to its intended destination.
 
-![flow chart showing a scenario where Fluent Bit is unable to send logs to an Elasticsearch destination](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1693229760-fluent-bit-error-alerting-source-fina-png.png&w=2048&q=75)We’ll work with the following Fluent Bit configuration:
+![flow chart showing a scenario where Fluent Bit is unable to send logs to an Elasticsearch destination](/images/blog/1693229760-fluent-bit-error-alerting-source-fina-png.png)We’ll work with the following Fluent Bit configuration:
 
 
 ```yaml
@@ -125,7 +125,7 @@ kubectl logs <fluent-bit-pod-name> -f
 ```
 An error output indicating  that Fluent Bit is not able to ship logs should be visible.
 
-![logs in the terminal showing retries and then an error](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1693229034-fluent-bit-error-logs.png&w=3840&q=75)This entry
+![logs in the terminal showing retries and then an error](/images/blog/1693229034-fluent-bit-error-logs.png)This entry
 
 
 ```bash
@@ -144,7 +144,7 @@ With the prerequisites for alerting now elucidated, let’s implement it in prac
 
 The following illustration presents our revamped log processing pipeline designed to transform logs of failed destinations into actionable alerts. Let’s now adapt our Fluent Bit configuration to accommodate this refined approach.
 
-![diagram showing a workflow that send an alert to Slack when Fluent Bit is unable to send logs to Elasticsearch](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1693231811-fluent-bit-error-alerting-source-changes-direct-slack.png&w=3840&q=75)Here’s the Fluent Bit configuration that enables the log processing pipeline depicted above:
+![diagram showing a workflow that send an alert to Slack when Fluent Bit is unable to send logs to Elasticsearch](/images/blog/1693231811-fluent-bit-error-alerting-source-changes-direct-slack.png)Here’s the Fluent Bit configuration that enables the log processing pipeline depicted above:
 
 
 ```yaml
@@ -220,7 +220,7 @@ After the update, Fluent Bit will start posting messages in your Slack channel a
 
 The output will resemble the following:
 
-![screen capture of Slack shoing multiple messages indication failed delivery of logs](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1693233231-slack-log-output-final.png&w=3840&q=75)However, an issue arises with this approach. In cases where a destination is unavailable, there potentially could be tens of thousands of failed messages in a very short timespan. Consequently, employing this approach could bombard the Slack channel.
+![screen capture of Slack shoing multiple messages indication failed delivery of logs](/images/blog/1693233231-slack-log-output-final.png)However, an issue arises with this approach. In cases where a destination is unavailable, there potentially could be tens of thousands of failed messages in a very short timespan. Consequently, employing this approach could bombard the Slack channel.
 
 We need some way to limit the number of messages sent to Slack. Thankfully, Fluent Bit provides it.
 

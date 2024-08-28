@@ -6,7 +6,7 @@ supports SQL for parsing logs, adds support for HTTP/2, and more."
 image: "../images/blog/fluent-bit-v3.png"
 author: "Calyptia Team"
 canonicalUrl: "https://calyptia.com/blog/fluent-bit-v3"
-herobg: "https://www.datocms-assets.com/97087/1689182792-background-fluent-bit.png"
+herobg: "/images/blog/1689182792-background-fluent-bit.png"
 slug: fluent-bit-v3
 aliases:
 - /blog/fluent-bit-v3
@@ -15,7 +15,7 @@ aliases:
 [Calyptia](https://calyptia.com) is the primary sponsor 
 and creator of the Fluent Bit project.*
 
-![Fluent Bit v3](https://www.datocms-assets.com/97087/1710511162-fluentbitv3_creatives_1600x836.png)
+![Fluent Bit v3](/images/blog/1710511162-fluentbitv3_creatives_1600x836.png)
 
 # Fluent Bit v3 gives users greater control of their data and telemetry pipelines
 
@@ -33,7 +33,7 @@ for their contributions to the Fluent Bit v3 release. We are excited to continue
 the vision of building the most performant and versatile open source agent for collecting, 
 processing, transforming, and routing telemetry data. 
 
-![We are celebrating 13 billion downloads](https://www.datocms-assets.com/97087/1710511305-13billion_creatives_twitter.png)
+![We are celebrating 13 billion downloads](/images/blog/1710511305-13billion_creatives_twitter.png)
 
 Earlier this month, Fluent Bit surpassed 13 billion downloads from DockerHub — 
 a massive accomplishment demonstrating the acceleration in adoption since it hit one 

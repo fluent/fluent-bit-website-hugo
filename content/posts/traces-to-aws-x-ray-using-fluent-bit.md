@@ -2,10 +2,10 @@
 title: "Send distributed traces to AWS X-Ray using Fluent Bit"
 date: "2024-03-13"
 description: "Commonly used for logging, Fluent Bit is also capable of handling traces. Learn how Fluent Bit collects and sends OTel-compliant tracing data to AWS X-Ray."
-image: "https://www.datocms-assets.com/97087/1710273253-sendingtraces_creatives_twitter.png?auto=format&fit=max&w=1200"
+image: "/images/blog/1710273253-sendingtraces_creatives_twitter.png"
 author: "Sharad Regoti"
 canonicalUrl: "https://calyptia.com/blog/traces-to-aws-x-ray-using-fluent-bit"
-herobg: "https://www.datocms-assets.com/97087/1689182792-background-fluent-bit.png"
+herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
 *This post was [originally published on the Calyptia blog](https://calyptia.com/blog/traces-to-aws-x-ray-using-fluent-bit). 
 [Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
@@ -52,7 +52,7 @@ please refer to the [**official documentation**](https://docs.fluentbit.io/manua
 
 ## Distributed tracing workflow
 
-![Diagram illustrating how applications emit trace data which is then collected by a centralized observability data shipper that sends the data to a distributed trace storage engine](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1710271503-distributed-traces-4.png&w=1920&q=75)
+![Diagram illustrating how applications emit trace data which is then collected by a centralized observability data shipper that sends the data to a distributed trace storage engine](/images/blog/1710271503-distributed-traces-4.png)
 <caption)Instrumented applications emit trace data that is collected and processed by a 
 centralized agent, when then sends to data to a backend for storage and analysis</caption>
 
@@ -98,7 +98,7 @@ ADOT automatically converts the compliant trace ID to the format required by AWS
 
 Our architecture looks like this:
 
-![Architectural diagram showing Fluent Bit receiving trace data from an application then sending the data to AWS Distro for OpenTelemetry which send it to AWS X-Ray](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1710271782-distributed-traces-1.png&w=3840&q=75)
+![Architectural diagram showing Fluent Bit receiving trace data from an application then sending the data to AWS Distro for OpenTelemetry which send it to AWS X-Ray](/images/blog/1710271782-distributed-traces-1.png)
 <caption>Fluent Bit both receives and submits OTLP but it must be converted to the bespoke 
 format required by AWS X-Ray</caption>
 
@@ -330,11 +330,11 @@ curl -X GET http://localhost:5000/generate
 
 You will observe a new trace is generated as shown in the below image.
 
-![Screenshot of X-Ray console showing a newly generated trace](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1710274188-distributed-traces-5.png&w=3840&q=75)
+![Screenshot of X-Ray console showing a newly generated trace](/images/blog/1710274188-distributed-traces-5.png)
 
 Click on the newly created trace to view the detailed information about the request.
 
-![Trace detail screen in X-Ray](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1710274268-distributed-traces-2.png&w=3840&q=75)
+![Trace detail screen in X-Ray](/images/blog/1710274268-distributed-traces-2.png)
 
 ## Clean Up
 
