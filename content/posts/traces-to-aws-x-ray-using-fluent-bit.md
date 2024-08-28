@@ -7,8 +7,8 @@ author: "Sharad Regoti"
 canonicalUrl: "https://calyptia.com/blog/traces-to-aws-x-ray-using-fluent-bit"
 herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
-*This post was [originally published on the Calyptia blog](https://calyptia.com/blog/traces-to-aws-x-ray-using-fluent-bit). 
-[Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
+*This post is [republished from the Chronosphere blog](https://calyptia.com/blog/traces-to-aws-x-ray-using-fluent-bit). 
+With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 In software development, observability allows us to understand a system from the outside 
 by asking questions about the system without knowing its inner workings. Furthermore, 

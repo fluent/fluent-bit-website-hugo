@@ -11,7 +11,7 @@ slug: fluent-bit-v3
 aliases:
 - /blog/fluent-bit-v3
 ---
-*This post was [originally published on the Calyptia blog](https://calyptia.com/blog/fluent-bit-v3). 
+*This post is [republished from the Chronosphere blog](https://calyptia.com/blog/fluent-bit-v3). 
 [Calyptia](https://calyptia.com) is the primary sponsor 
 and creator of the Fluent Bit project.*
 

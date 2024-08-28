@@ -6,7 +6,7 @@ image: "/images/blog/1695998714-10-billion-party.png"
 author: "Erik Bledsoe"
 canonicalUrl: "https://calyptia.com/blog/fluent-bit-surpasses-10-billion-docker-pulls"
 ---
-*This post was originally published on the Calyptia blog. [Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/fluent-bit-surpasses-10-billion-docker-pulls/). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 Fluent Bit recently surpassed 10 billion pulls from Docker Hub. That’s *billion*, with a “B.” 🎉
 

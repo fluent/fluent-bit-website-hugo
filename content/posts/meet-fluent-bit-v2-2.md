@@ -7,7 +7,7 @@ author: "Erik Bledsoe"
 canonicalUrl: "https://calyptia.com/blog/meet-fluent-bit-v2-2"
 herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
-*This post was [originally published on the Calyptia blog](https://calyptia.com/blog/meet-fluent-bit-v2-2). [Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
+*This post is [republished from the Chronosphere blog](https://calyptia.com/blog/meet-fluent-bit-v2-2). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 Last week Calyptia announced the release of Fluent Bit v2.2. at KubeCon + CloudNativeCon North America. Eduardo Silva, original creator of Fluent Bit and Calyptia CEO, presented highlights from the new release at Observability Day, a KubeCon co-located event. You can watch the [full video here](https://calyptia.com/blog/meet-fluent-bit-v2-2). 
 
