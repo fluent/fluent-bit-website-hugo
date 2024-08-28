@@ -183,5 +183,5 @@ The parsers for the *tail* plugin are not applied sequentially but are mutually 
 ## What’s Next?
 
 * **Join the Fluent Slack Community:** To learn more about Fluent Bit, we recommend joining the [Fluent Community Slack channel](https://launchpass.com/fluent-all) where you will find thousands of other Fluent Bit users.
-* **Check Out Fluent & Calyptia On-Demand Webinars:** Our free [on-demand webinars](https://calyptia.com/events) that range from introductory sessions to deep dives into advanced features.
+* **Check Out Fluent & Calyptia On-Demand Webinars:** Our free [on-demand webinars](https://chronosphere.io/fluent-bit-academy/) that range from introductory sessions to deep dives into advanced features.
 * **Learn about Calyptia Core:** Finally, you may also be interested in learning about our enterprise offering, [Calyptia Core](https://calyptia.com/products/calyptia-core), which simplifies the creation and management of telemetry data pipelines at scale. Request a [customized demo](https://calyptia.com/demo) or sign up for a [free trial](https://calyptia.com/free-trial) now.

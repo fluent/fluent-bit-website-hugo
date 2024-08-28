@@ -386,7 +386,9 @@ rate(log_metric_counter_http_requests_total[1m])
 rate(log_metric_counter_http_status_500_total [1m]) / rate(log_metric_counter_http_requests_total [1m])
 ```
 
-![Prometheus screen capture](/images/blog/1699633188-blog_logs_to_metrics_image1.png)http request rate metric derived from logs## **Conclusion**
+![Prometheus screen capture](/images/blog/1699633188-blog_logs_to_metrics_image1.png)http request rate metric derived from logs
+
+## **Conclusion**
 
 Fluent Bit is [one of the most widely adopted logging and metrics processors and forwarders](https://chronosphere.io/learn/fluent-bit-surpasses-10-billion-docker-pulls/). It is deployed by default in major Kubernetes distributions, including Google Kubernetes Engine (GKE), AWS Elastic Kubernetes Service (EKS), and Azure Kubernetes Service (AKS), and is being used by top technology companies Meta, Cisco, LinkedIn, and many more. 
 
@@ -397,6 +399,6 @@ The Logs to Metrics filter enables Fluent Bit to solve more challenges for organ
 ![Fluent Bit Advanced Processing](/images/blog/1697782227-ondemand_newsize.png)
 Fluent Bit Advanced ProcessingConverting logs to metrics is just one of the ways that Fluent Bit enables users to process in-flight data as it flows through the pipeline before arriving at its destination. Fluent Bit can also redact or enrich your data and analyze it to determine where it should be routed based upon your business rules. There are [dozens of native plugins](https://docs.fluentbit.io/manual/pipeline/filters) available that allow you to process and transform your data in flight. To learn more, check out our free, on-demand webinar “[Advanced Processing with Fluent Bit](https://calyptia.com/on-demand-webinar-fluent-bit-advanced-processing).”
 
-![Fluent Bit with Kubernetes](/images/blog/1699050117-manning-promo.png)
-Or download a free preview copy of [*Fluent Bit with Kubernetes*](https://calyptia.com/fluent-bit-with-kubernetes-manning) by Phil Wilkins, compliments of Calyptia, the creators of Fluent Bit. 
+![Fluent Bit with Kubernetes](/images/blog/1712692819-manning-promotion-expanded-v3-1024x535.png)
+Or download a free preview copy of [*Fluent Bit with Kubernetes*](https://chronosphere.io/resource/fluent-bit-with-kubernetes-manning/) by Phil Wilkins, compliments of Calyptia, the creators of Fluent Bit. 
 

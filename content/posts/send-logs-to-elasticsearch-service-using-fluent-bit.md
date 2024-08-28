@@ -103,7 +103,7 @@ the Elasticsearch cluster is secure. By default, the `Port` is configured to
 
 We have also defined a secondary output that sends all the data to `stdout`. 
 This is not required for the Elasticsearch configuration but can be 
-[incredibly helpful if we need to debug our configuration](https://calyptia.com/blog/fluent-bit-tips-tricks).
+[incredibly helpful if we need to debug our configuration](https://chronosphere.io/learn/fluent-bit-tips-tricks/).
 
 ## Start Sending Your Logs!
 

@@ -563,7 +563,7 @@ transform streaming data we recommend the following:
 * “[Fluent Bit: Advanced Processing](https://www.youtube.com/watch?v=-gQ1111ONhU)”—this 
 on-demand webinar provides an introduction to processing with Fluent Bit and demonstrates 
 best practices and real-world examples for redaction, reduction, enrichment, and tagging of log data.
-* “[Creating custom processing rules for Fluent Bit with Lua](https://calyptia.com/blog/creating-custom-processing-rules-for-fluent-bit-with-lua)”
+* “[Creating custom processing rules for Fluent Bit with Lua](https://chronosphere.io/learn/custom-processing-rules-for-fluent-bit-with-lua/)”
 —In addition to support for WASM, Fluent Bit also supports custom scripts written in Lua. This step-by-step tutorial walks you through several examples.
 
 You may also be interested in exploring Calyptia Core, our telemetry pipeline manager that 

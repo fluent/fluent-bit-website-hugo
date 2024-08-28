@@ -173,10 +173,9 @@ the logs are routed downstream. And above all, embrace the metadata.
 
 ## Next Steps
 
-If you are new to Fluent Bit, we provide [free hands-on learning labs](https://info.calyptia.com/learning-labs) 
-using ephemeral sandbox environments. For more advanced users, we recommend our 
-[Fluent Bit Summer webinar series](https://calyptia.com/blog/fluent-bit-summer-webinar-series) 
-with topics such as advanced processing and routing to help you optimize your Fluent Bit usage. 
-All webinars are available on-demand following the live presentation.
+If you are new to Fluent Bit, we recommend 
+[Fluent Bit Academy](https://chronosphere.io/fluent-bit-academy/) 
+with on-demand videos and training on topics such as advanced processing and routing to help you optimize your Fluent Bit usage. 
+
 
 Also, look for our upcoming training sessions starting in September.
