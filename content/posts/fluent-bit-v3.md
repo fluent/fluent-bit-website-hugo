@@ -5,15 +5,14 @@ description: "The new release allows the filtering of Windows and MacOS metrics,
 supports SQL for parsing logs, adds support for HTTP/2, and more."
 image: "../images/blog/fluent-bit-v3.png"
 author: "Calyptia Team"
-canonicalUrl: "https://calyptia.com/blog/fluent-bit-v3"
+canonicalUrl: "https://chronosphere.io/learn/fluent-bit-v3/"
 herobg: "/images/blog/1689182792-background-fluent-bit.png"
 slug: fluent-bit-v3
 aliases:
 - /blog/fluent-bit-v3
 ---
-*This post is [republished from the Chronosphere blog](https://calyptia.com/blog/fluent-bit-v3). 
-[Calyptia](https://calyptia.com) is the primary sponsor 
-and creator of the Fluent Bit project.*
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/fluent-bit-v3/). 
+With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 ![Fluent Bit v3](/images/blog/1710511162-fluentbitv3_creatives_1600x836.png)
 

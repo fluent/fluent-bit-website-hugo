@@ -4,7 +4,7 @@ date: "2023-03-01"
 description: "A guide to using Fluent Bit to send logs to Loki along with a discussion about why this is a better option than using the agent provided by Grafana."
 image: "/images/blog/1681245707-featured-logs-loki.webp?auto=format&fit=max&w=1200"
 author: "Sudhanshu Prajapati"
-canonicalUrl: "https://calyptia.com/blog/how-to-send-logs-to-loki-using-fluent-bit"
+canonicalUrl: "https://chronosphere.io/learn/fluent-bit-loki/"
 ---
 *This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/fluent-bit-loki/). [With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 

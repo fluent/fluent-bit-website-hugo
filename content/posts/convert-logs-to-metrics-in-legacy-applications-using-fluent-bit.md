@@ -4,10 +4,10 @@ date: "2023-11-13"
 description: "Learn how Fluent Bit can derive metrics from application logs, helping to bridge the gap between limited telemetry sources and comprehensive observability."
 image: "/images/blog/1699633863-logs-to-metrics-social.png"
 author: "Sharad Regoti"
-canonicalUrl: "https://calyptia.com/blog/convert-logs-to-metrics-in-legacy-applications-using-fluent-bit"
+canonicalUrl: "https://chronosphere.io/learn/convert-logs-to-metrics-using-fluent-bit/"
 herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
-*This post is [republished from the Chronosphere blog](https://calyptia.com/blog/convert-logs-to-metrics-in-legacy-applications-using-fluent-bit). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/convert-logs-to-metrics-using-fluent-bit/). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 In software development, observability allows us to understand a system from the outside, by asking questions about the system without knowing its inner workings. Furthermore, it allows us to easily troubleshoot and helps answer the question, “Why is this happening?”
 
@@ -388,7 +388,7 @@ rate(log_metric_counter_http_status_500_total [1m]) / rate(log_metric_counter_ht
 
 ![Prometheus screen capture](/images/blog/1699633188-blog_logs_to_metrics_image1.png)http request rate metric derived from logs## **Conclusion**
 
-Fluent Bit is [one of the most widely adopted logging and metrics processors and forwarders](https://calyptia.com/blog/fluent-bit-surpasses-10-billion-docker-pulls). It is deployed by default in major Kubernetes distributions, including Google Kubernetes Engine (GKE), AWS Elastic Kubernetes Service (EKS), and Azure Kubernetes Service (AKS), and is being used by top technology companies Meta, Cisco, LinkedIn, and many more. 
+Fluent Bit is [one of the most widely adopted logging and metrics processors and forwarders](https://chronosphere.io/learn/fluent-bit-surpasses-10-billion-docker-pulls/). It is deployed by default in major Kubernetes distributions, including Google Kubernetes Engine (GKE), AWS Elastic Kubernetes Service (EKS), and Azure Kubernetes Service (AKS), and is being used by top technology companies Meta, Cisco, LinkedIn, and many more. 
 
 The Logs to Metrics filter enables Fluent Bit to solve more challenges for organizations, especially for organizations looking to bring observability to legacy applications.
 

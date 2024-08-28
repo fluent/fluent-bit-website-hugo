@@ -4,12 +4,12 @@ date: "2023-11-16"
 description: "Announcing the release of Fluent Bit v2.2! Watch the project update from Observability Day at KubeCon and read about some of the highlights from the new release."
 image: "/images/blog/1700159205-fluent-bit-2-2.png"
 author: "Erik Bledsoe"
-canonicalUrl: "https://calyptia.com/blog/meet-fluent-bit-v2-2"
+canonicalUrl: "https://chronosphere.io/learn/fluent-bit-v2-2/"
 herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
-*This post is [republished from the Chronosphere blog](https://calyptia.com/blog/meet-fluent-bit-v2-2). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/fluent-bit-v2-2/). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
-Last week Calyptia announced the release of Fluent Bit v2.2. at KubeCon + CloudNativeCon North America. Eduardo Silva, original creator of Fluent Bit and Calyptia CEO, presented highlights from the new release at Observability Day, a KubeCon co-located event. You can watch the [full video here](https://calyptia.com/blog/meet-fluent-bit-v2-2). 
+Last week Calyptia announced the release of Fluent Bit v2.2. at KubeCon + CloudNativeCon North America. Eduardo Silva, original creator of Fluent Bit and Calyptia CEO, presented highlights from the new release at Observability Day, a KubeCon co-located event. You can watch the [full video here](https://chronosphere.io/learn/fluent-bit-v2-2/). 
 
 Here are some highlights of the new release.
 
@@ -63,7 +63,7 @@ New to Fluent Bit? Check out our [Fluent Bit half-day training](https://calyptia
 
 ## Did you know?
 
-[Fluent Bit](https://fluentbit.io/) has over [10 billion Docker pulls](https://calyptia.com/blog/fluent-bit-surpasses-10-billion-docker-pulls) and is the industry standard open-source solution for
+[Fluent Bit](https://fluentbit.io/) has over [10 billion Docker pulls](https://chronosphere.io/learn/fluent-bit-surpasses-10-billion-docker-pulls/) and is the industry standard open-source solution for
 
 processing and forwarding logs and metrics. It is deployed in major Kubernetes distributions, including Google Kubernetes Engine (GKE), AWS Elastic Kubernetes Service (EKS), Azure Kubernetes Service (AKS), and more.
 

@@ -2,12 +2,12 @@
 title: "Send distributed traces to AWS X-Ray using Fluent Bit"
 date: "2024-03-13"
 description: "Commonly used for logging, Fluent Bit is also capable of handling traces. Learn how Fluent Bit collects and sends OTel-compliant tracing data to AWS X-Ray."
-image: "/images/blog/1710273253-sendingtraces_creatives_twitter.png"
+image: "/images/blog/1710273253-sendingtraces-creatives-twitter.png"
 author: "Sharad Regoti"
-canonicalUrl: "https://calyptia.com/blog/traces-to-aws-x-ray-using-fluent-bit"
+canonicalUrl: "https://chronosphere.io/learn/distributed-tracing-aws-x-ray-fluent-bit/"
 herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
-*This post is [republished from the Chronosphere blog](https://calyptia.com/blog/traces-to-aws-x-ray-using-fluent-bit). 
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/distributed-tracing-aws-x-ray-fluent-bit/). 
 With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 In software development, observability allows us to understand a system from the outside 

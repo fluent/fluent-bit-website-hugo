@@ -5,10 +5,10 @@ description: "A step-by-step guide demonstrating how to send logs to
 Elasticsearch using Fluent Bit to gather, process, and ship the logs."
 image: "/images/blog/1681342523-featured-logs-elasticsearch.png"
 author: "Erik Bledsoe"
-canonicalUrl: "https://calyptia.com/blog/send-logs-to-elasticsearch-service-using-fluent-bit"
+canonicalUrl: "https://chronosphere.io/learn/elasticsearch-fluent-bit-logs/"
 herobg: "/images/background-fluent-bit.png"
 ---
-*This post is [republished from the Chronosphere blog](https://calyptia.com/blog/send-logs-to-elasticsearch-service-using-fluent-bit). 
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/elasticsearch-fluent-bit-logs/). 
 With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 ![Logs to Fluent Bit to Elastic](/images/blog/1681342741-logs-elasticsearch.png)

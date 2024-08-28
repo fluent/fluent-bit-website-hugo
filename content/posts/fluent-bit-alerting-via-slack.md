@@ -4,7 +4,7 @@ date: "2023-08-28"
 description: "Learn how to use Fluent Bit to identify irregularities in the data pipeline as they occur and send alerts to Slack"
 image: "/images/blog/1693238432-fluent-bit-slack-social.png"
 author: "Sharad Regoti"
-canonicalUrl: "https://calyptia.com/blog/fluent-bit-alerting-via-slack"
+canonicalUrl: "https://chronosphere.io/learn/fluent-bit-alerting-slack/"
 ---
 *This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/fluent-bit-alerting-slack/). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
