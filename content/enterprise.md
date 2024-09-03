@@ -10,8 +10,13 @@ enterprise:
   enabled: true
   position: 0
   list:
+  - title: Calyptia
+    description: Support services and Enterprise features from the creators and maintainers of Fluentd and Fluent Bit. Calyptia was acquired by Chronosphere in 2024.
+    logo: /images/calyptia.svg
+    buttonUrl: "https://calyptia.com/"
+    buttonText: "read More"
   - title: Chronosphere
-    description: Enterprise telemetry pipeline solution and support services from the creators and maintainers of Fluent Bit. Recognized as a leader by major analyst firms, Chronosphere also offers a full observability platform.
+    description: Enterprise telemetry pipeline solution and support services from the creators of Fluent Bit and Calyptia. Recognized as a leader by major analyst firms, Chronosphere also offers a full observability platform.
     logo: /images/chronosphere-logo-vertical.png
     buttonUrl: "https://chronosphere.io/platform/telemetry-pipeline/"
     buttonText: "Learn more"
