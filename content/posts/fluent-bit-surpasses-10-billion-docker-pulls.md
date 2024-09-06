@@ -2,17 +2,17 @@
 title: "Fluent Bit surpasses 10 billion Docker pulls!"
 date: "2023-09-25"
 description: "That’s billion, with a “B.” It is currently averaging over 23 million pulls per day. That’s 270 pulls every second, 24/7"
-image: "https://www.datocms-assets.com/97087/1695998714-10-billion-party.png?auto=format&fit=max&w=1200"
+image: "/images/blog/1695998714-10-billion-party.png"
 author: "Erik Bledsoe"
-canonicalUrl: "https://calyptia.com/blog/fluent-bit-surpasses-10-billion-docker-pulls"
+canonicalUrl: "https://chronosphere.io/learn/fluent-bit-surpasses-10-billion-docker-pulls/"
 ---
-*This post was originally published on the Calyptia blog. [Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/fluent-bit-surpasses-10-billion-docker-pulls/). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 Fluent Bit recently surpassed 10 billion pulls from Docker Hub. That’s *billion*, with a “B.” 🎉
 
 As the creators and maintainers of [Fluent Bit](https://fluentbit.io/), we at Calyptia are stunned and humbled by its success.
 
-![illustration of a party with a 10 billion banner](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1695998714-10-billion-party.png&w=3840&q=75)Originally released in the Docker registry in 2017, Fluent Bit surpassed one billion Docker pulls in March 2022. Since then, the pulls have accelerated rapidly, adding an additional nine billion in eighteen months. 
+![illustration of a party with a 10 billion banner](/images/blog/1695998714-10-billion-party.png)Originally released in the Docker registry in 2017, Fluent Bit surpassed one billion Docker pulls in March 2022. Since then, the pulls have accelerated rapidly, adding an additional nine billion in eighteen months. 
 
 To help put those numbers in perspective:
 

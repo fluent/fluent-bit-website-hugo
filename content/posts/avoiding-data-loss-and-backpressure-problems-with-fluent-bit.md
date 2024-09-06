@@ -4,26 +4,26 @@ Fluent Bit"
 date: "2024-01-29"
 description: "A practical guide on how to detect and avoid backpressure problems
 with Fluent Bit by balancing memory-based and filesystem-based buffering."
-image: "https://www.datocms-assets.com/97087/1701353456-general-fluent-bit-preview-card.png?auto=format&fit=max&w=1200"
+image: "/images/blog/1701353456-general-fluent-bit-preview-card.png"
 author: "Sharad Regoti"
-canonicalUrl: "https://calyptia.com/blog/avoiding-data-loss-and-backpressure-problems-with-fluent-bit"
-herobg: "https://www.datocms-assets.com/97087/1689182792-background-fluent-bit.png"
+canonicalUrl: "https://chronosphere.io/learn/avoiding-data-loss-and-backpressure-problems-with-fluent-bit/"
+herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
-*This post was [originally published on the Calyptia blog](https://calyptia.com/blog/avoiding-data-loss-and-backpressure-problems-with-fluent-bit). [Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/avoiding-data-loss-and-backpressure-problems-with-fluent-bit/). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 ## Introduction
 
 Fluent Bit is a widely used open-source data collection agent, processor, and forwarder 
 that enables you to collect logs, metrics, and traces from various sources, filter and 
 transform them, and then forward them to multiple destinations. With over 
-[ten billion Docker](https://calyptia.com/blog/fluent-bit-surpasses-10-billion-docker-pulls) 
+[ten billion Docker](https://chronosphere.io/learn/fluent-bit-surpasses-10-billion-docker-pulls/) 
 pulls, Fluent Bit has established itself as a preferred choice for log processing, 
 collecting, and shipping.
 
 At its core, Fluent Bit is a simple data pipeline consisting of various stages,
 as depicted below.
 
-![Illustration of a Fluent Bit pipeline](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1706536426-fluent-bit-pipeline.png&w=3840&q=75)Most data pipelines eventually suffer from backpressure, which is when data is ingested at a higher rate than the ability to flush it. Backpressure causes problems such as high memory usage, service downtime, and data loss. Network failures, latency, or third-party service failures are common scenarios where backpressure occurs.
+![Illustration of a Fluent Bit pipeline](/images/blog/1706536426-fluent-bit-pipeline.png)Most data pipelines eventually suffer from backpressure, which is when data is ingested at a higher rate than the ability to flush it. Backpressure causes problems such as high memory usage, service downtime, and data loss. Network failures, latency, or third-party service failures are common scenarios where backpressure occurs.
 
 Fluent Bit offers special strategies to deal with [backpressure](https://www.notion.so/manual/administration/backpressure) to help ensure data safety and reduce downtime. Recognizing when Fluent Bit is experiencing backpressure and knowing how to address it is crucial for maintaining a healthy data pipeline.
 
@@ -94,7 +94,7 @@ docker stats <container-id-or-container-name>
 The image below shows that by default, the container consumes 10MB of RAM and
 can take up to 8GB of system RAM.
 
-![screen capture of console showing default memory settings for container](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1706539594-blog-backpressure-container-default.png&w=3840&q=75)**Fluent Bit Configuration**
+![screen capture of console showing default memory settings for container](/images/blog/1706539594-blog-backpressure-container-default.png)**Fluent Bit Configuration**
 
 
 ```yaml
@@ -133,7 +133,8 @@ After a few seconds, the container will stop automatically. Once it stops, grab
 the container ID using `docker ps -a` and inspect the container—you should
 observe that it was killed due to a container `Out Of Memory` error.
 
-![Screen shot of command line showing contain memory limit](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1706537578-blog-backpressure-memory-limit.png&w=3840&q=75)![screen shot of command line showing the container was killed due to out of memory error](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1706537718-blog-backpressure-container-killed.png&w=3840&q=75)This demonstrates how backpressure in Fluent Bit leads to increased memory usage, resulting in the Kernel terminating the application upon reaching memory limits, which causes downtime and data loss.
+![Screen shot of command line showing contain memory limit](/images/blog/1706537578-blog-backpressure-memory-limit.png)
+![screen shot of command line showing the container was killed due to out of memory error](/images/blog/1706537718-blog-backpressure-container-killed.png)This demonstrates how backpressure in Fluent Bit leads to increased memory usage, resulting in the Kernel terminating the application upon reaching memory limits, which causes downtime and data loss.
 
 If your Fluent Bit process is continuously getting killed, it is likely an
 indication that Fluent Bit is experiencing backpressure. In the following
@@ -203,11 +204,11 @@ execute the below command.
 docker logs <container-id> | grep -i "pausing\\|resume"
 ```
 
-![screen shot of console showing impact of backpressure](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1706538342-blog-backpressure-example.png&w=3840&q=75)The above image indicates that as Fluent Bit reaches the 10MB buffer limit of the input plugin, **it pauses ingesting new records, potentially leading to data loss, but this pause prevents the service from getting terminated due to high memory usage**. Upon buffer clearance, the ingestion of new records resumes.
+![screen shot of console showing impact of backpressure](/images/blog/1706538342-blog-backpressure-example.png)The above image indicates that as Fluent Bit reaches the 10MB buffer limit of the input plugin, **it pauses ingesting new records, potentially leading to data loss, but this pause prevents the service from getting terminated due to high memory usage**. Upon buffer clearance, the ingestion of new records resumes.
 
 If you are observing the above logs in Fluent Bit, it is a sign of Fluent Bit hitting the 
 configured memory limits at input plugins due to backpressure. Check out this blog post 
-on [how to configure alerts from logs using Fluent Bit](https://calyptia.com/blog/fluent-bit-alerting-via-slack).
+on [how to configure alerts from logs using Fluent Bit](https://chronosphere.io/learn/fluent-bit-alerting-slack/).
 
 In the upcoming section, we will see how to achieve both data safety and memory
 safety.
@@ -295,16 +296,16 @@ approach, ensuring data safety and efficient memory management. These techniques
 are essential for optimizing Fluent Bit in high-throughput environments,
 ensuring robust and reliable log processing.
 
-![Meme: Thanos perfectly balanced as all things should be](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1706539804-blog-backpressure-meme.jpg&w=3840&q=75)For more information on this topic, refer to the documentation below
+![Meme: Thanos perfectly balanced as all things should be](/images/blog/1706539804-blog-backpressure-meme.jpg)For more information on this topic, refer to the documentation below
 
 * [Administrating Backpressure In Fluent Bit](https://docs.fluentbit.io/manual/administration/backpressure)
 * [How to configure buffering & storage in Fluent Bit](https://docs.fluentbit.io/manual/administration/buffering-and-storage)
 
 ## You may also be interested in
 
-To continue expanding your Fluent Bit knowledge, check out [Fluent Bit Academy](https://calyptia.com/on-demand-webinars). 
+To continue expanding your Fluent Bit knowledge, check out [Fluent Bit Academy](https://chronosphere.io/fluent-bit-academy/). 
 It’s filled with on-demand videos guiding you through all things Fluent Bit — best 
 practices and how-to’s on advanced processing rules, routing to multiple destinations, 
 and much more.
 
-![Fluent Bit Academy](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1702491671-fluent-bit-academy.png&w=3840&q=75)
+![Fluent Bit Academy](/images/blog/1702491671-fluent-bit-academy.png)

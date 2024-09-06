@@ -4,18 +4,18 @@ date: "2023-10-05"
 description: "Use Fluent Bit's WASM plugin to process and evaluate Kubernetes
 labels in streaming logs and determine where the log data should be routed for
 storage."
-image: "https://www.datocms-assets.com/97087/1696524913-dynamic-routing-wasm-social.png?auto=format&fit=max&w=1200"
+image: "/images/blog/1696524913-dynamic-routing-wasm-social.png"
 author: "Sharad Regoti"
-canonicalUrl: "https://calyptia.com/blog/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm"
-herobg: "https://www.datocms-assets.com/97087/1689182792-background-fluent-bit.png"
+canonicalUrl: "https://chronosphere.io/learn/dynamic-log-routing-on-kubernetes-labels-fluent-bit/"
+herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
-*This post was [originally published on the Calyptia blog](https://calyptia.com/blog/dynamic-log-routing-based-on-kubernetes-labels-using-fluent-bit-wasm). 
-[Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/dynamic-log-routing-on-kubernetes-labels-fluent-bit/). 
+With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 Fluent Bit is a widely-used open-source data collection agent, processor, and forwarder 
 that enables you to collect logs, metrics, and traces from various sources, filter and 
 transform them, and then forward them to multiple destinations. With over 
-[ten billion Docker](https://calyptia.com/blog/fluent-bit-surpasses-10-billion-docker-pulls) 
+[ten billion Docker](https://chronosphere.io/learn/fluent-bit-surpasses-10-billion-docker-pulls/) 
 pulls, Fluent Bit has established itself as a preferred choice for log processing, 
 collecting, and shipping.
 
@@ -338,7 +338,7 @@ tinygo build -wasm-abi=generic -target=wasi -o filter.wasm filter.go
 ```
 ## **Configuring Fluent Bit To Use WASM Plugin**
 
-![Illustration of pipeline](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1696534425-dynamic-routing-wasm-pipeline.png&w=3840&q=75)Here’s the Fluent Bit configuration that enables the log processing pipeline depicted above:
+![Illustration of pipeline](/images/blog/1696534425-dynamic-routing-wasm-pipeline.png)Here’s the Fluent Bit configuration that enables the log processing pipeline depicted above:
 
 
 ```yaml
@@ -543,7 +543,7 @@ Use the command below to check Fluent Bit logs
 ```
 kubectl logs <fluent-bit-pod-name> -f
 ```
-![screenshot of log output with our modified tag highlighted](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1696532343-dynamic-routing-final-logs.png&w=3840&q=75)You should be able to view modified tags as shown in the above image.
+![screenshot of log output with our modified tag highlighted](/images/blog/1696532343-dynamic-routing-final-logs.png)You should be able to view modified tags as shown in the above image.
 
 ## **Conclusion**
 
@@ -563,7 +563,7 @@ transform streaming data we recommend the following:
 * “[Fluent Bit: Advanced Processing](https://www.youtube.com/watch?v=-gQ1111ONhU)”—this 
 on-demand webinar provides an introduction to processing with Fluent Bit and demonstrates 
 best practices and real-world examples for redaction, reduction, enrichment, and tagging of log data.
-* “[Creating custom processing rules for Fluent Bit with Lua](https://calyptia.com/blog/creating-custom-processing-rules-for-fluent-bit-with-lua)”
+* “[Creating custom processing rules for Fluent Bit with Lua](https://chronosphere.io/learn/custom-processing-rules-for-fluent-bit-with-lua/)”
 —In addition to support for WASM, Fluent Bit also supports custom scripts written in Lua. This step-by-step tutorial walks you through several examples.
 
 You may also be interested in exploring Calyptia Core, our telemetry pipeline manager that 

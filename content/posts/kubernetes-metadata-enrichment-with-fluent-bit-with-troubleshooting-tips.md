@@ -2,12 +2,12 @@
 title: "Kubernetes Metadata Enrichment with Fluent Bit (with Troubleshooting Tips)"
 date: "2023-11-30"
 description: "Learn how to enrich Kubelet logs with metadata from the K8s API server using Fluent Bit along with troubleshooting tips for common misconfigurations."
-image: "https://www.datocms-assets.com/97087/1701353456-general-fluent-bit-preview-card.png?auto=format&fit=max&w=1200"
+image: "/images/blog/1701353456-general-fluent-bit-preview-card.png"
 author: "Patrick Stephens"
-canonicalUrl: "https://calyptia.com/blog/kubernetes-metadata-enrichment-with-fluent-bit-with-troubleshooting-tips"
-herobg: "https://www.datocms-assets.com/97087/1689182792-background-fluent-bit.png"
+canonicalUrl: "https://chronosphere.io/learn/fluent-bit-kubernetes-filter/"
+herobg: "/images/blog/1689182792-background-fluent-bit.png"
 ---
-*This post was [originally published on the Calyptia blog](https://calyptia.com/blog/kubernetes-metadata-enrichment-with-fluent-bit-with-troubleshooting-tips). [Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/fluent-bit-kubernetes-filter/). With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 When run in Kubernetes (K8s) as a [daemonset](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/), Fluent Bit can ingest Kubelet logs and enrich them with additional metadata from the Kubernetes API server. This includes any annotations or labels on the pod and information about the namespace, pod, and the container the log is from. It is very simple to do, and, in fact, it is also the default setup when deploying Fluent Bit via the [helm chart](https://docs.fluentbit.io/manual/installation/kubernetes).
 
@@ -73,7 +73,7 @@ Now we can extract the relevant fields with a regex:
 * container\_name = *apache*
 * container\_id = *aeeccc7a9f00f6e4e066aeff0434cf80621215071f1b20a51e8340aa7c35eac6*
 
-![Process illustration demonstrating how the Kubernetes filter works](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1701369935-fluent-bit-kubernetes-filter-process.png&w=3840&q=75)<caption>The Fluent Bit Kubernetes filter extracts information from the log filename in order to query the K8s API server to retrieve metadata that is then added to the log file.</caption>
+![Process illustration demonstrating how the Kubernetes filter works](/images/blog/1701369935-fluent-bit-kubernetes-filter-process.png)<caption>The Fluent Bit Kubernetes filter extracts information from the log filename in order to query the K8s API server to retrieve metadata that is then added to the log file.</caption>
 
 ## Misconfiguration woes
 
@@ -183,5 +183,5 @@ The parsers for the *tail* plugin are not applied sequentially but are mutually 
 ## What’s Next?
 
 * **Join the Fluent Slack Community:** To learn more about Fluent Bit, we recommend joining the [Fluent Community Slack channel](https://launchpass.com/fluent-all) where you will find thousands of other Fluent Bit users.
-* **Check Out Fluent & Calyptia On-Demand Webinars:** Our free [on-demand webinars](https://calyptia.com/events) that range from introductory sessions to deep dives into advanced features.
+* **Check Out Fluent & Calyptia On-Demand Webinars:** Our free [on-demand webinars](https://chronosphere.io/fluent-bit-academy/) that range from introductory sessions to deep dives into advanced features.
 * **Learn about Calyptia Core:** Finally, you may also be interested in learning about our enterprise offering, [Calyptia Core](https://calyptia.com/products/calyptia-core), which simplifies the creation and management of telemetry data pipelines at scale. Request a [customized demo](https://calyptia.com/demo) or sign up for a [free trial](https://calyptia.com/free-trial) now.

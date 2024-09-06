@@ -3,13 +3,13 @@ title: "Use Fluent Bit to Enrich Logs with Kubernetes Metadata, Automatically"
 date: "2023-08-08"
 description: "Learn how Kubernetes metadata can enhance traceability and enrich
 diagnostics and how Fluent Bit makes it possible"
-image: "https://www.datocms-assets.com/97087/1691520029-banner.png?auto=format&fit=max&w=1200"
+image: "/images/blog/1691520029-banner.png"
 author: "Celalettin Calis"
-canonicalUrl: "https://calyptia.com/blog/use-fluent-bit-to-enrich-logs-with-kubernetes-metadata-automatically"
+canonicalUrl: "https://chronosphere.io/learn/enrich-logs-with-kubernetes-metadata-fluent-bit/"
 herobg: "/images/background-fluent-bit.png"
 ---
-*This post was [originally published on the Calyptia blog](https://calyptia.com/blog/use-fluent-bit-to-enrich-logs-with-kubernetes-metadata-automatically). 
-[Calyptia](https://calyptia.com) is the primary sponsor and creator of the Fluent Bit project.*
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/enrich-logs-with-kubernetes-metadata-fluent-bit/). 
+With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
 If you’re in the world of application orchestration (microservices, CI/CD,
 multi-cloud deployments, data pipelines), Kubernetes is likely an essential tool
@@ -40,7 +40,7 @@ Today we are going to talk about the value of Kubernetes metadata and how using
 this with Fluent Bit can enable you to enhance traceability and enrich
 diagnostics.
 
-![Fluent Bit + Kubernetes logging](https://calyptia.com/_next/image?url=https://www.datocms-assets.com/97087/1691510930-fluent-bit-kubernetes-logging.png&w=1920&q=75)
+![Fluent Bit + Kubernetes logging](/images/blog/1691510930-fluent-bit-kubernetes-logging.png)
 
 ## Understanding Kubernetes Metadata
 
@@ -173,10 +173,9 @@ the logs are routed downstream. And above all, embrace the metadata.
 
 ## Next Steps
 
-If you are new to Fluent Bit, we provide [free hands-on learning labs](https://info.calyptia.com/learning-labs) 
-using ephemeral sandbox environments. For more advanced users, we recommend our 
-[Fluent Bit Summer webinar series](https://calyptia.com/blog/fluent-bit-summer-webinar-series) 
-with topics such as advanced processing and routing to help you optimize your Fluent Bit usage. 
-All webinars are available on-demand following the live presentation.
+If you are new to Fluent Bit, we recommend 
+[Fluent Bit Academy](https://chronosphere.io/fluent-bit-academy/) 
+with on-demand videos and training on topics such as advanced processing and routing to help you optimize your Fluent Bit usage. 
+
 
 Also, look for our upcoming training sessions starting in September.

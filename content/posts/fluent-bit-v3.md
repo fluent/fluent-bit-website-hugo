@@ -5,17 +5,16 @@ description: "The new release allows the filtering of Windows and MacOS metrics,
 supports SQL for parsing logs, adds support for HTTP/2, and more."
 image: "../images/blog/fluent-bit-v3.png"
 author: "Calyptia Team"
-canonicalUrl: "https://calyptia.com/blog/fluent-bit-v3"
-herobg: "https://www.datocms-assets.com/97087/1689182792-background-fluent-bit.png"
+canonicalUrl: "https://chronosphere.io/learn/fluent-bit-v3/"
+herobg: "/images/blog/1689182792-background-fluent-bit.png"
 slug: fluent-bit-v3
 aliases:
 - /blog/fluent-bit-v3
 ---
-*This post was [originally published on the Calyptia blog](https://calyptia.com/blog/fluent-bit-v3). 
-[Calyptia](https://calyptia.com) is the primary sponsor 
-and creator of the Fluent Bit project.*
+*This post is [republished from the Chronosphere blog](https://chronosphere.io/learn/fluent-bit-v3/). 
+With [Chronosphere’s acquisition of Calyptia](https://chronosphere.io/news/chronosphere-acquires-calyptia/) in 2024, Chronosphere became the [primary corporate sponsor of Fluent Bit](https://chronosphere.io/fluent-bit/). Eduardo Silva — the original creator of Fluent Bit and co-founder of Calyptia — leads a team of Chronosphere engineers dedicated full-time to the project, ensuring its continuous development and improvement.*
 
-![Fluent Bit v3](https://www.datocms-assets.com/97087/1710511162-fluentbitv3_creatives_1600x836.png)
+![Fluent Bit v3](/images/blog/1710511162-fluentbitv3_creatives_1600x836.png)
 
 # Fluent Bit v3 gives users greater control of their data and telemetry pipelines
 
@@ -33,7 +32,7 @@ for their contributions to the Fluent Bit v3 release. We are excited to continue
 the vision of building the most performant and versatile open source agent for collecting, 
 processing, transforming, and routing telemetry data. 
 
-![We are celebrating 13 billion downloads](https://www.datocms-assets.com/97087/1710511305-13billion_creatives_twitter.png)
+![We are celebrating 13 billion downloads](/images/blog/1710511305-13billion_creatives_twitter.png)
 
 Earlier this month, Fluent Bit surpassed 13 billion downloads from DockerHub — 
 a massive accomplishment demonstrating the acceleration in adoption since it hit one 
@@ -130,14 +129,14 @@ processing them in mid-stream, and routing them to any number of backends.
 ## Learn more
 
 To learn more about Fluent Bit, visit the [project website](https://fluentbit.io/) 
-or the recently launched [Fluent Bit Academy](https://calyptia.com/on-demand-webinars) 
+or the recently launched [Fluent Bit Academy](https://chronosphere.io/fluent-bit-academy/) 
 where you will find hours of on-demand training videos covering best practices and 
 how-to’s on advanced processing, routing, and all things Fluent Bit. 
 Here’s a sample of what you can find there:
 
-* [Fluent Bit for Windows](https://calyptia.com/on-demand-webinars/on-demand-fluent-bit-for-windows)
-* [Getting Started with Fluent Bit and OpenSearch](https://calyptia.com/on-demand-webinars/getting-started-with-fluent-bit-and-opensearch)
-* [Getting Started with Fluent Bit and OpenTelemetry](https://calyptia.com/on-demand-webinars/getting-started-with-fluent-bit-and-opentelemetry)
+* [Fluent Bit for Windows](https://chronosphere.io/fluent-bit-academy/)
+* [Getting Started with Fluent Bit and OpenSearch](https://chronosphere.io/fluent-bit-academy/)
+* [Getting Started with Fluent Bit and OpenTelemetry](https://chronosphere.io/fluent-bit-academy/)
 
 We also invite you to join the vibrant Fluent community. Visit the 
 [project’s GitHub repository](https://github.com/fluent/fluent-bit) to 
