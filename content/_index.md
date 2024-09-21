@@ -9,7 +9,7 @@ hero:
    Observability Pipeline
   tag: "Deployed Over Ten Billion Times"
   subHeading: |
-   Fluent Bit is a super fast, lightweight, and highly scalable logging and metrics processor and forwarder.  It is the preferred choice for cloud and containerized environments.
+   Fluent Bit is a super fast, lightweight, and highly scalable logging, metrics, and traces processor and forwarder. It is the preferred choice for cloud and containerized environments.
   btnText: TRY NOW
   btnUrl: "https://play.instruqt.com/Fluent/tracks/fluent-bit-getting-started-101"
   btnText: DOWNLOAD NOW
