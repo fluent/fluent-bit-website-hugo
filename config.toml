@@ -47,6 +47,12 @@ noteUrl = "announcements/v3.2.0"
         weight = 7
 
     [[menu.main]]
+        identifier = "opentelemetry"
+        url = "/opentelemetry/"
+        name = "OpenTelemetry"
+        weight = 7
+
+    [[menu.main]]
         identifier = "slack"
         url = "https://launchpass.com/fluent-all"
         name = "slack"
