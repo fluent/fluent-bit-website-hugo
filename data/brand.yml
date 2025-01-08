@@ -70,3 +70,6 @@
 - logo: "/images/brands/dell.svg"
   name: "dell"
   weight: 13
+- logo: "/images/brands/swym_logo.svg"
+  name: "swym"
+  weight: 13
