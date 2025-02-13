@@ -73,9 +73,6 @@
 - logo: "/images/brands/swym_logo.svg"
   name: "swym"
   weight: 13
-- logo: "/images/brands/GM-logo.png"
-  name: "swym"
-  weight: 13
-  - logo: "/images/brands/General_Motors_logo.svg"
-  name: "swym"
+- logo: "/images/brands/General_Motors_logo.svg"
+  name: "gm"
   weight: 13
