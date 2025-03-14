@@ -13,7 +13,7 @@ enterprise:
   - title: Chronosphere
     description: Enterprise telemetry pipeline solution and support services from the creators of Fluent Bit and Calyptia. Recognized as a leader by major analyst firms, Chronosphere also offers a full observability platform.
     logo: /images/chronosphere-logo-vertical.png
-    buttonUrl: "https://chronosphere.io/platform/telemetry-pipeline/?utm_source=fluent-bit&utm_medium=referral&utm_content=enterprise-tile"
+    buttonUrl: "https://chronosphere.io/contact/?utm_source=fluent-bit&utm_medium=referral&utm_content=enterprise-tile"
     buttonText: "Learn more"
     tabOpen: "_blank"
   - title: ITOCHU Techno-Solutions America, Inc.
