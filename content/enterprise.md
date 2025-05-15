@@ -30,4 +30,12 @@ enterprise:
     buttonUrl: "https://www.clear-code.com/services/fluentd.html"
     buttonText: "Learn more"
     tabOpen: "_blank"
+  - title: Fluent.Do
+    description: >
+      Fluent.Do provide various consulting and professional services for Fluent projects and their users.
+      They are based in the EU and are comprised of Fluent Bit maintainers.
+    logo: /images/fluentdo-logo.jpg
+    buttonUrl: "https://fluent.do/"
+    buttonText: "Learn more"
+    tabOpen: "_blank"
 ---
