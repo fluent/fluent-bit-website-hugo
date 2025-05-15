@@ -24,7 +24,7 @@ community:
   - title: Newsletter
     description: Sign up to receive our newsletter for product information, Fluent Bit events, and opportunities to contribute to the project.
     logo: /images/mail.svg
-    buttonUrl: "https://www.fluentd.org/newsletter"
+    buttonUrl: "https://chronosphere.io/fluent-bit/#subscribe"
     buttonText: "Sign up"
     tabOpen: "_blank"
 meeting:
