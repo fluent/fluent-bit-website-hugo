@@ -8,10 +8,10 @@ email = ""
 logo = "/images/logo.svg"
 logo2 = "/images/logo-white.svg"
 footer_logo = "/images/footer-logo.svg"
-copyright = "© 2015-2025 The Fluent Bit Authors. Fluent Bit is a CNCF sub-project under the umbrella of Fluentd"
-lastVersion = "v4.1.1"
-releasedOn = "October 09, 2025"
-noteUrl = "announcements/v4.1.1"
+copyright = "© 2015-2025 The Fluent Bit Authors. Fluent Bit is a CNCF graduated project under the Fluent organization"
+lastVersion = "v4.2.0"
+releasedOn = "November 11, 2025"
+noteUrl = "announcements/v4.2.0"
 
    [menu]
     [[menu.main]]
