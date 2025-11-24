@@ -1,7 +1,7 @@
 Date: October 28, 2025
 
 
-Scope:  Fluent Bit Security issues reported in https://github.com/fluent/fluent-bit/security/advisories/GHSA-r6wj-v2vm-9mjj (restricted access)
+Scope:  Fluent Bit Security issues reported in [GitHub Security Advisory](https://github.com/fluent/fluent-bit/security/advisories/GHSA-r6wj-v2vm-9mjj) (restricted access)
 
 On October 23, 2025,  we were notified of a few security issues present in Fluent Bit.  Those security issues have been remediated in the latest versions currently available of Fluent Bit v4.2,  v4.1 (4.1.1) as well as v4.0 (4.0.14).   Below please find a summary of the issues and remediation.  
 
