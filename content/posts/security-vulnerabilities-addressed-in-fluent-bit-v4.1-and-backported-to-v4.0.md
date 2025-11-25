@@ -1,9 +1,16 @@
-Date: October 28, 2025
+---
+title: "Security Vulnerabilities Addressed in Fluent Bit v4.1 and Backported to v4.0"
+date: 2025-10-28
+description: "Summary of security issues reported and remediated in Fluent Bit v4.2, v4.1.1, and v4.0.14, including path traversal, stack buffer overflow, and authentication bypass fixes."
+tags: ["fluentbit", "security", "cve", "vulnerability"]
+image: "/images/blog/1701353456-general-fluent-bit-preview-card.png"
+author: "Fluent Bit Team"
+herobg: "/images/blog/1689182792-background-fluent-bit.png"
+---
 
+**Scope:** Fluent Bit Security issues reported in [GitHub Security Advisory](https://github.com/fluent/fluent-bit/security/advisories/GHSA-r6wj-v2vm-9mjj) (restricted access)
 
-Scope:  Fluent Bit Security issues reported in [GitHub Security Advisory](https://github.com/fluent/fluent-bit/security/advisories/GHSA-r6wj-v2vm-9mjj) (restricted access)
-
-On October 23, 2025,  we were notified of a few security issues present in Fluent Bit.  Those security issues have been remediated in the latest versions currently available of Fluent Bit v4.2,  v4.1 (4.1.1) as well as v4.0 (4.0.14).   Below please find a summary of the issues and remediation.  
+On October 23, 2025, we were notified of a few security issues present in Fluent Bit. Those security issues have been remediated in the latest versions currently available of Fluent Bit v4.2, v4.1 (4.1.1) as well as v4.0 (4.0.14). Below please find a summary of the issues and remediation.  
 
 
 ### 1. Executive Summary
