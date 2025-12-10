@@ -24,3 +24,4 @@ Fluent Bit recently completed a security audit carried out by Ada Logics. The au
 All issues identified in the audit have been patched. The new fuzzers from the audit are now a part of Fluent Bit’s fuzzing suite that is integrated into OSS-Fuzz. The new fuzzers continue to run with OSS-Fuzz’s extensive compute power and will continue to test Fluent Bit.
 
 You can read the full security audit report here: <https://github.com/fluent/fluent-bit/blob/2f7791edbcf7c942789c41ba7abe7e1a8f9d7ccf/doc-reports/cncf-security-audit.pdf>.
+
