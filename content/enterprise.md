@@ -10,6 +10,13 @@ enterprise:
   enabled: true
   position: 0
   list:
+  - title: Telemetry Forge
+    description: >
+      Telemetry Forge is a premier provider of full stack observability solutions for enterprise organizations. We combine deep technical expertise with comprehensive professional services to deliver end-to-end visibility across your entire stack. We build the telemetry layer your platform runs on whether that is on-prem, hybrid or multi-cloud. We are based in the EU and are comprised of Fluent Bit maintainers as well as other experts.
+    logo: /images/telemetry-forge-logo.png
+    buttonUrl: "https://telemetryforge.io/"
+    buttonText: "Learn more"
+    tabOpen: "_blank"
   - title: Chronosphere
     description: Enterprise telemetry pipeline solution and support services from the creators of Fluent Bit and Calyptia. Recognized as a leader by major analyst firms, Chronosphere also offers a full observability platform.
     logo: /images/chronosphere-logo-vertical.png
