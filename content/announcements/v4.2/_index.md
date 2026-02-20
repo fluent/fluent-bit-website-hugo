@@ -8,7 +8,7 @@ latestVer: true
 releaseNotes:
   heading: "Release Notes v4.2.3"
   version: "v4.2.3"
-  text: "Fluent Bit is a Fast and Lightweight Data Processor and Forwarder for Linux, BSD and OSX. We are proud to announce the availability of Fluent Bit v4.2.0. <br>
+  text: "Fluent Bit is a Fast and Lightweight Data Processor and Forwarder for Linux, BSD and OSX. We are proud to announce the availability of Fluent Bit v4.2.3. <br>
   For people upgrading from previous versions you must read the Upgrading Notes section of our documentation:
   https://docs.fluentbit.io/manual/installation/upgrade_notes"
 ---
